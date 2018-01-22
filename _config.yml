@@ -1,38 +1,42 @@
-# Site settings
+---
 title: The Sitting Hun
-description: The brand and portfolio of Atthar Mirza & Company.
-email: thesittinghun@gmail.com
-baseurl: ""
-url: ""
-github_username: attharmirza
 timezone: US/Eastern
-
-# Build settings
-sass:
-  sass_dir: _styles
-  style: compressed
 collections:
+  posts:
+    title: Posts
+    output: true
   projects:
     title: Projects
     output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
 - scope:
-    path: ""
+    path: ''
     type: pages
   values:
     layout: default
-    title:
-    description:
+    title: 
+    description: 
 - scope:
-    path: ""
+    path: ''
     type: projects
   values:
     layout: project
-    title:
-    description:
-    embed:
+    title: 
+    description: 
+    embed: 
     info:
-    - type: "Text"
-      asset:
-    - type: "Image"
-      asset:
+    - type: Text
+      asset: 
+    - type: Image
+      asset: 
+description: The brand and portfolio of Atthar Mirza & Company.
+email: thesittinghun@gmail.com
+baseurl: ''
+url: ''
+github_username: attharmirza
+sass:
+  sass_dir: _styles
+  style: compressed
