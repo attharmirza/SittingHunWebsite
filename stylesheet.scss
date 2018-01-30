@@ -1,4 +1,26 @@
 ---
 ---
 
+// Colors
+$color-white: #FFFFFF;
+$color-gray: #7E7E7E;
+$color-black: #000000;
+
+$gradient-web: linear-gradient(to right, #A146D1, #fb4bea);
+$gradient-animation: linear-gradient(to right, #FF4321, #FDD631);
+$gradient-design: linear-gradient(to right, #13E55B, #0BDAF5);
+
+// Fonts
+$font-heading: normal 700 1.5em Lato,sans-serif;
+$font-subheading: normal 400 1.2em Lato,sans-serif;
+$font-body: normal 400 1em Raleway,sans-serif;
+$font-italic: italic 400 1em Raleway,sans-serif;
+$font-bold: normal 700 1em Raleway,sans-serif;
+
+// Variables
+$shadow-light: 0 0 50px 0px rgba(0, 0, 0, 0.2);
+
 @import "main";
+@import "navigation";
+@import "index";
+@import "project";

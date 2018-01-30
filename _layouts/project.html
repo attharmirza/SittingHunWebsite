@@ -3,7 +3,11 @@
 {% include info.html %}
 
 <body>
-  {{ content }}
+  {% include navigation.html %}
+  <div class="content">
+    {% include menu.html %}
+    {{ content }}
+  </div>
 </body>
 
 </html>

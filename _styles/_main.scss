@@ -1,4 +1,40 @@
-html, body {
+body,
+html {
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  z-index: 1;
+  // float: right;
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 80%;
+  max-width: calc(100% - 200px);
+  height: 100%;
+  // background: $gradient-animation;
+}
+
+h1 {
+  font: $font-heading;
+}
+
+h2 {
+  font: $font-subheading;
+}
+
+p {
+  font: $font-body;
+}
+
+em {
+  font: $font-italic;
+}
+
+b, strong {
+  font: $font-bold;
 }
