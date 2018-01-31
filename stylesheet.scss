@@ -5,10 +5,19 @@
 $color-white: #FFFFFF;
 $color-gray: #7E7E7E;
 $color-black: #000000;
+$color-purple: #A146D1;
+$color-pink: #fb4bea;
+$color-orange: #FF4321;
+$color-yellow: #FDD631;
+$color-green: #13E55B;
+$color-cyan: #0BDAF5;
+$color-rose: #ff6666;
+$color-red: #f00a56;
 
-$gradient-web: linear-gradient(to right, #A146D1, #fb4bea);
-$gradient-animation: linear-gradient(to right, #FF4321, #FDD631);
-$gradient-design: linear-gradient(to right, #13E55B, #0BDAF5);
+$gradient-web: linear-gradient(to right, $color-purple, $color-pink);
+$gradient-animation: linear-gradient(to right, $color-orange, $color-yellow);
+$gradient-design: linear-gradient(to right, $color-green, $color-cyan);
+$gradient-red: linear-gradient(to right, $color-rose, $color-red);
 
 // Fonts
 $font-heading: normal 700 1.5em Lato,sans-serif;

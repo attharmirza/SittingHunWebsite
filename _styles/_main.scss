@@ -16,7 +16,8 @@ html {
   width: 80%;
   max-width: calc(100% - 200px);
   height: 100%;
-  // background: $gradient-animation;
+  background: $color-white;
+  overflow: auto;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h2 {
   font: $font-subheading;
 }
 
-p {
+p, div {
   font: $font-body;
 }
 
