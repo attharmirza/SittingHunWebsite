@@ -20,16 +20,22 @@ $gradient-design: linear-gradient(to right, $color-green, $color-cyan);
 $gradient-red: linear-gradient(to right, $color-rose, $color-red);
 
 // Fonts
-$font-heading: normal 700 1.5em Lato,sans-serif;
+$font-heading: normal 300 2em Lato,sans-serif;
 $font-subheading: normal 400 1.2em Lato,sans-serif;
 $font-body: normal 400 1em Raleway,sans-serif;
 $font-italic: italic 400 1em Raleway,sans-serif;
 $font-bold: normal 700 1em Raleway,sans-serif;
 
 // Variables
+$shadow-large: 0 0 100px 0px rgba(0, 0, 0, 0.17);
 $shadow-light: 0 0 50px 0px rgba(0, 0, 0, 0.2);
+$shadow-pressed: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+$screen-small: 900px;
+$screen-wide: 1600px;
 
 @import "main";
 @import "navigation";
-@import "index";
+@import "menu";
+@import "default";
 @import "project";

@@ -13,11 +13,19 @@ html {
   display: block;
   position: absolute;
   right: 0;
+  // min-width: 400px;
   width: 80%;
   max-width: calc(100% - 200px);
   height: 100%;
   background: $color-white;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  @media only screen and (max-width: $screen-small) {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: $shadow-large;
+  }
 }
 
 h1 {

@@ -1,0 +1,37 @@
+.menu {
+  display: none;
+  width: 100%;
+  // height: 10%;
+  // background: $gradient-animation;
+
+  @media only screen and (max-width: $screen-small) {
+    display: block;
+  }
+}
+
+.menuTitle {
+  margin: 0;
+  padding: 20px 0;
+  min-width: 370px;
+  width: 100%;
+  text-align: center;
+}
+
+#menuButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: $shadow-light;
+
+  &:active {
+    box-shadow: $shadow-pressed;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

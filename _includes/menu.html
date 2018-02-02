@@ -1,0 +1,75 @@
+<div class="menu">
+  <div id="menuButton"></div>
+  <div><h1 class="menuTitle">The Sitting Hun</h1></div>
+
+  <script>
+    $(document).ready(function() {
+      var element = document.getElementById('menuButton');
+      var openAnimation = '{{ site.url }}{{ site.baseurl }}graphics/animations/menuButton-open.json';
+      var closeAnimation = '{{ site.url }}{{ site.baseurl }}graphics/animations/menuButton-close.json';
+      var open = false;
+
+      var anim = lottie.loadAnimation({
+        container: element,
+        renderer: 'svg',
+        loop: false,
+        autoplay: false,
+        path: openAnimation
+      });
+
+      anim.play();
+      anim.addEventListener('enterFrame', function(currentFrame) {
+        if (currentFrame.currentTime > (anim.totalFrames - 1)) {
+          anim.pause();
+        }
+      });
+
+      $('#menuButton').click(function() {
+        if (open == false) {
+          $('#menuButton').find('svg').remove();
+          $('.content').css('width', '80%').css('max-width', 'calc(100% - 200px)');
+
+          var anim = lottie.loadAnimation({
+            container: element,
+            renderer: 'svg',
+            loop: false,
+            autoplay: false,
+            path: openAnimation
+          });
+
+          anim.play();
+          anim.addEventListener('enterFrame', function(currentFrame) {
+            if (currentFrame.currentTime > (anim.totalFrames - 1)) {
+              anim.pause();
+            }
+          });
+
+          open = true;
+        } else {
+          $('#menuButton').find('svg').remove();
+          $('.content').css('width', '100%').css('max-width', '100%');
+
+          var anim = lottie.loadAnimation({
+            container: element,
+            renderer: 'svg',
+            loop: false,
+            autoplay: false,
+            path: closeAnimation
+          });
+
+          anim.play();
+          anim.addEventListener('enterFrame', function(currentFrame) {
+            if (currentFrame.currentTime > (anim.totalFrames - 1)) {
+              anim.pause();
+            }
+          });
+
+          open = false;
+        }
+      })
+
+
+
+    });
+  </script>
+</div>
