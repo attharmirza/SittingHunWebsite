@@ -13,13 +13,13 @@ primary-asset: |-
   <p><a href="https://vimeo.com/211130315">Impossible Courage Trailer 1</a> from <a href="https://vimeo.com/thesittinghun">The Sitting Hun</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 info:
 - type: Image
-  asset: 
+  asset: "/uploads/img8.png"
   style: Left
 - type: Image
-  asset: 
+  asset: "/uploads/img5.png"
   style: Float
 - type: Image
-  asset: 
+  asset: "/uploads/img3.png"
   style: Right
 ---
 
