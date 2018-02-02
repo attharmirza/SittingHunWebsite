@@ -17,28 +17,34 @@ defaults:
     type: pages
   values:
     layout: default
-    title:
-    description:
+    title: 
+    description: 
 - scope:
     path: ''
     type: projects
   values:
     layout: project
+<<<<<<< HEAD
     title:
     description:
     cover-image:
     primary-asset:
+=======
+    title: 
+    description: 
+    primary-asset: 
+>>>>>>> 07ef2b1db66470267e1b78ca08da0578fecc8a44
     info:
     - type: Text
-      asset:
+      asset: 
       style: None
     - type: Image
-      asset:
+      asset: 
       style: Left, Right, Float
 description: The brand and portfolio of Atthar Mirza & Company.
 email: thesittinghun@gmail.com
-baseurl:
-url:
+baseurl: 
+url: 
 github_username: attharmirza
 sass:
   sass_dir: _styles
