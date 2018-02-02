@@ -6,8 +6,30 @@
   {% include navigation.html %}
   <div class="content">
     {% include menu.html %}
-    {{ content }}
+    <div class="container">
+      <div class="grid">
+        <div class="project-sizer"></div>
+        {% assign sorted_projects = site.projects | sort:"position" %} {% for project in sorted_projects %}
+        <div class="project">
+          <img src="{{ site.url }}{{ site.baseurl }}{{ project.cover-image }}" />
+          <div class="projectTitle">
+            <p><b>{{ project.title }}</b></p>
+            <p>{{ project.date | date: "%B %e, %Y" }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
+
+  <script src="{{ site.url }}{{ site.baseurl }}/scripts/jquery.masonry.js" type="text/javascript"></script>
+  <script>
+    $('.grid').masonry({
+      itemSelector: '.project',
+      columnWidth: '.project-sizer',
+      percentPosition: true
+    })
+  </script>
 </body>
 
 </html>

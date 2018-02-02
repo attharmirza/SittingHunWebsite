@@ -1,0 +1,35 @@
+.grid {
+  width: calc(100% - 40px);
+  margin: 30px auto;
+}
+
+.project-sizer, .project {
+  width: 30%;
+
+  @media only screen and (max-width: $screen-small) {
+    width: 50%;
+  }
+}
+
+.project {
+  box-shadow: $shadow-light;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .projectTitle {
+    padding: 10px 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    margin: 10px 10px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: $screen-small) {
+    box-shadow: inherit;
+  }
+}
