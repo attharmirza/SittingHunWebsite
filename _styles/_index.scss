@@ -64,6 +64,12 @@
   box-shadow: $shadow-inset;
 }
 
-.animation {
+.Web {
+  background: $gradient-web;
+}
+.Animation {
   background: $gradient-animation;
+}
+.Design {
+  background: $gradient-design;
 }
