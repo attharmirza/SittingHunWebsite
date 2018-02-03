@@ -1,6 +1,13 @@
 ---
 title: Story
 date: 2018-02-03 15:26:00 -05:00
+description: Atthar Mirza is a filmmaker, animator, and graphic designer. He loves
+  motion graphics and 3D modeling because they are the best way to extract the images
+  in his brain and bring them to life. Atthar has been doing professional freelance
+  work since 2012, and is thankful the Mayans were wrong because he was just getting
+  started. As an undergraduate 4th-year in the UVA Architecture school, his most recent
+  project (and thesis) involves using virtual reality to effectively generate empathy
+  for the refugee crisis.
 ---
 
 **The Sitting Hun** began with my family. My cousins, little brother, and I grew up together in Seattle, WA. As my interest in film grew, they all got pulled along with me. Well, pulled along until they were old enough to realize they had their own interests.
