@@ -6,6 +6,8 @@ description: Just You Wait is a proposed renovation for waiting room spaces, spe
   for any waiting situation where privacy is a benefit. The project is a dynamic roofing
   system, which expands into private pods with a projection mapped information access
   point.
+cover-image: "/uploads/img3.png"
+primary-asset: <img src="/uploads/img1.png" />
 ---
 
 **Just You Wait** is a proposed renovation for waiting room spaces, specifically designed for cancer patients and infusion centers. It is highly adaptable, however, for any waiting situation where privacy is a benefit. The project is a dynamic roofing system, which expands into private pods with a projection mapped information access point.
