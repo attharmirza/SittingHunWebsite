@@ -1,6 +1,6 @@
 ---
 title: Material Studies
-date: 2018-02-03 14:55:00 -05:00
+date: 2016-08-24 14:55:00 -04:00
 categories:
 - Animation
 description: These Procedural Material Studies were created using the cycles render
@@ -14,7 +14,8 @@ info:
 - type: Image
   asset: "/uploads/img2-27bfc3.jpg"
   style: Left
-- asset: "/uploads/img3.jpg"
+- type: Image
+  asset: "/uploads/img3.jpg"
   style: Right
 ---
 
