@@ -31,8 +31,6 @@
 // Project Thumbnail Styling:
 
 .project {
-  // opacity: 0;
-  color: $color-white;
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
@@ -53,6 +51,7 @@
   p {
     margin: 10px 10px;
     text-align: center;
+    color: $color-white;
   }
 
   &:hover {

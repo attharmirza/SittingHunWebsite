@@ -29,7 +29,10 @@
         if (open == false) {
           $('#menuButton').find('svg').remove();
           $('.content').css('width', '80%').css('max-width', 'calc(100% - 200px)');
-          loadGrid();
+          if ('{{ page.title }}' == 'Home') {
+            loadGrid();
+          };
+
 
           var anim = lottie.loadAnimation({
             container: element,
@@ -50,7 +53,9 @@
         } else {
           $('#menuButton').find('svg').remove();
           $('.content').css('width', '100%').css('max-width', '100%');
-          loadGrid();
+          if ('{{ page.title }}' == 'Home') {
+            loadGrid();
+          };
 
           var anim = lottie.loadAnimation({
             container: element,

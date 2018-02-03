@@ -10,6 +10,7 @@
       <div class="grid">
         <div class="grid-sizer"></div>
         {% assign sorted_projects = site.projects | sort:"position" %} {% for project in sorted_projects %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}">
         <div class="grid-item">
           <div class="projectShadow">
             <div class="project{% for item in project.categories %} {{ item }}{% endfor %}">
@@ -21,6 +22,7 @@
             </div>
           </div>
         </div>
+        </a>
         {% endfor %}
       </div>
     </div>
@@ -42,17 +44,18 @@
     $(document).ready(function() {
       loadGrid();
 
-      $('.project').plate({
-        inverse: true,
-        perspective: 1500,
-        maxRotation: 7
-      });
-
-      $('.projectShadow').plate({
-        inverse: false,
-        perspective: 750,
-        maxRotation: 8
-      });
+      if ($(window).width() > 900) {
+        $('.project').plate({
+          inverse: true,
+          perspective: 1500,
+          maxRotation: 7
+        });
+        $('.projectShadow').plate({
+          inverse: false,
+          perspective: 750,
+          maxRotation: 8
+        });
+      }
     });
   </script>
 </body>

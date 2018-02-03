@@ -37,8 +37,10 @@ h2 {
   font: $font-subheading;
 }
 
-p, div {
+p, div, a {
   font: $font-body;
+  text-decoration: none;
+  color: $color-black;
 }
 
 em {
