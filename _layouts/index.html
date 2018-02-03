@@ -16,7 +16,7 @@
             <div class="project{% for item in project.categories %} {{ item }}{% endfor %}">
               <img src="{{ site.url }}{{ site.baseurl }}{{ project.cover-image }}" />
               <div class="projectTitle">
-                <p><b>{{ project.title }}</b></p>
+                <p>{{ project.title }}</p>
                 <p class="projectDate">{{ project.date | date: "%m.%d.%Y" }}</p>
               </div>
             </div>
@@ -37,7 +37,7 @@
         columnWidth: '.grid-sizer',
         percentPosition: true,
         gutter: 30,
-        transitionDuration: 0
+        transitionDuration: 50
       });
     }
 

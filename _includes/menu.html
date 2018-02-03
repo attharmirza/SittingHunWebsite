@@ -10,20 +10,20 @@
       var closeAnimation = '{{ site.url }}{{ site.baseurl }}/graphics/animations/menuButton-close.json';
       var open = false;
 
-      var anim = lottie.loadAnimation({
-        container: element,
-        renderer: 'svg',
-        loop: false,
-        autoplay: false,
-        path: closeAnimation
-      });
-
-      anim.play();
-      anim.addEventListener('enterFrame', function(currentFrame) {
-        if (currentFrame.currentTime > (anim.totalFrames - 1)) {
-          anim.pause();
-        }
-      });
+      // var anim = lottie.loadAnimation({
+      //   container: element,
+      //   renderer: 'svg',
+      //   loop: false,
+      //   autoplay: false,
+      //   path: closeAnimation
+      // });
+      //
+      // anim.play();
+      // anim.addEventListener('enterFrame', function(currentFrame) {
+      //   if (currentFrame.currentTime > (anim.totalFrames - 1)) {
+      //     anim.pause();
+      //   }
+      // });
 
       $('#menuButton').click(function() {
         if (open == false) {
@@ -76,7 +76,7 @@
         };
       });
 
-      // $('#menuButton').trigger('click');
+      $('#menuButton').trigger('click');
     });
   </script>
 </div>
