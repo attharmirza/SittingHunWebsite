@@ -8,7 +8,7 @@ $color-black: #000000;
 $color-purple: #A146D1;
 $color-pink: #fb4bea;
 $color-orange: #FF4321;
-$color-yellow: #FDD631;
+$color-yellow: #ffcf3e;
 $color-green: #13E55B;
 $color-cyan: #0BDAF5;
 $color-rose: #ff6666;
@@ -21,15 +21,20 @@ $gradient-red: linear-gradient(to right, $color-rose, $color-red);
 
 // Fonts
 $font-heading: normal 300 2em Lato,sans-serif;
-$font-subheading: normal 400 1.2em Lato,sans-serif;
-$font-body: normal 400 1em Raleway,sans-serif;
-$font-italic: italic 400 1em Raleway,sans-serif;
-$font-bold: normal 700 1em Raleway,sans-serif;
+$font-subheading: normal 300 1.2em Lato,sans-serif;
+$font-body: normal 300 1em Lato,sans-serif;
+$font-italic: italic 300 1em Lato,sans-serif;
+$font-bold: normal 700 1em Lato,sans-serif;
+$font-date: normal 300 2em 'Libre Barcode 128 Text',Lato,sans-serif;
 
 // Variables
 $shadow-large: 0 0 100px 0px rgba(0, 0, 0, 0.17);
 $shadow-light: 0 0 50px 0px rgba(0, 0, 0, 0.2);
 $shadow-pressed: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+$shadow-inset: inset 0 0 10px 5px rgba(255, 255, 255, 1);
+$shadow-card: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+$shadow-gradient: radial-gradient(rgb(0, 0, 0) 30%, rgba(255, 255, 255, 0) 100%);
 
 $screen-small: 900px;
 $screen-wide: 1600px;

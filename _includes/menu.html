@@ -1,6 +1,7 @@
 <div class="menu">
   <div id="menuButton"></div>
-  <div><h1 class="menuTitle">The Sitting Hun</h1></div>
+  <div>
+    <h1 class="menuTitle">The Sitting Hun</h1></div>
 
   <script>
     $(document).ready(function() {
@@ -28,6 +29,7 @@
         if (open == false) {
           $('#menuButton').find('svg').remove();
           $('.content').css('width', '80%').css('max-width', 'calc(100% - 200px)');
+          loadGrid();
 
           var anim = lottie.loadAnimation({
             container: element,
@@ -48,6 +50,7 @@
         } else {
           $('#menuButton').find('svg').remove();
           $('.content').css('width', '100%').css('max-width', '100%');
+          loadGrid();
 
           var anim = lottie.loadAnimation({
             container: element,
@@ -65,11 +68,10 @@
           });
 
           open = false;
-        }
-      })
+        };
+      });
 
-
-
+      // $('#menuButton').trigger('click');
     });
   </script>
 </div>

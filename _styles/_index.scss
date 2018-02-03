@@ -1,23 +1,46 @@
+.container {
+  width: 100%;
+}
+
+// Masonry Configuration:
+
 .grid {
   width: calc(100% - 40px);
   margin: 30px auto;
-}
-
-.project-sizer, .project {
-  width: 30%;
-
+  padding-left: 30px;
   @media only screen and (max-width: $screen-small) {
-    width: 50%;
+    padding-left: 0;
   }
 }
 
+.grid-item,
+.grid-sizer {
+  width: calc(33.33333% - 30px);
+  @media only screen and (max-width: $screen-small) {
+    width: calc(50% - 15px);
+  }
+}
+
+.grid-item {
+  margin-bottom: 20px;
+}
+
+// Project Thumbnail Styling:
+
 .project {
-  box-shadow: $shadow-light;
+  // opacity: 0;
+  color: $color-white;
   border-radius: 10px;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 
   .projectTitle {
-    padding: 10px 0;
+    padding: 5px 0;
+  }
+
+  .projectDate {
+    font: $font-date;
   }
 
   img {
@@ -29,7 +52,29 @@
     text-align: center;
   }
 
+  &:hover {
+    cursor: pointer;
+  }
   @media only screen and (max-width: $screen-small) {
     box-shadow: inherit;
   }
+}
+
+.projectShadow {
+  // background: rgba(0,0,0,0.085);
+  // border-radius: 10px;
+  // box-shadow: $shadow-card;
+
+  // box-shadow: $shadow-light;
+  // border-radius: 10px;
+
+  // background: rgb(0, 0, 0);
+  // box-shadow: $shadow-inset;
+
+  background: $shadow-gradient;
+  box-shadow: $shadow-inset;
+}
+
+.animation {
+  background: $gradient-animation;
 }
