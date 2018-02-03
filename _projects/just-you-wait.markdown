@@ -1,6 +1,6 @@
 ---
 title: Just You Wait
-date: 2018-02-03 14:38:00 -05:00
+date: 2016-05-16 14:38:00 -04:00
 categories:
 - Design
 description: Just You Wait is a proposed renovation for waiting room spaces, specifically
