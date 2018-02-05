@@ -36,58 +36,55 @@
   max-width: 200px;
 }
 
+.filter {
+  transition: 0.1s;
+  &:hover {
+    color: $color-white;
+    transform: scale(1.05);
+    transition: 0.1s;
+  }
+}
+
 .Web-filter {
   background: $gradient-web;
-  // font: $font-bold;
   color: $color-white;
-
-  &:hover {
-    background: $color-white;
-    box-shadow: inset 0 0 0 2px $color-purple;
-    color: $color-purple;
-  }
 }
 
 .Web-active {
   background: $color-white;
   box-shadow: inset 0 0 0 2px $color-purple;
   color: $color-purple;
+  &:hover {
+    color: $color-purple;
+  }
 }
 
 .Animation-filter {
   background: $gradient-animation;
-  // font: $font-bold;
   color: $color-white;
-
-  &:hover {
-    background: $color-white;
-    box-shadow: inset 0 0 0 2px $color-orange;
-    color: $color-orange;
-  }
 }
 
 .Animation-active {
   background: $color-white;
   box-shadow: inset 0 0 0 2px $color-orange;
   color: $color-orange;
+  &:hover {
+    color: $color-orange;
+  }
 }
 
 .Design-filter {
   background: $gradient-design;
-  // font: $font-bold;
   color: $color-white;
-
-  &:hover {
-    background: $color-white;
-    box-shadow: inset 0 0 0 2px $color-green;
-    color: $color-green;
-  }
 }
 
 .Design-active {
   background: $color-white;
   box-shadow: inset 0 0 0 2px $color-green;
   color: $color-green;
+  &:hover {
+    color: $color-green;
+  }
 }
 
 .footer {

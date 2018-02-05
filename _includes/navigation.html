@@ -47,74 +47,86 @@
 
 <script>
   $(document).ready(function() {
-    var webClicked = false;
-    var animationClicked = false;
-    var designClicked = false;
+    // var webClicked = false;
+    // var animationClicked = false;
+    // var designClicked = false;
 
-    $('.Web-filter').click(function () {
-      $('.filter').removeClass('Web-active');
+    $('.Web-filter').click(function() {
+      // $('.filter').removeClass('Web-active');
       $('.filter').removeClass('Animation-active');
       $('.filter').removeClass('Design-active');
-      showAll();
 
-      if (webClicked == false) {
-        $(this).addClass('Web-active');
-        $('.Animation').css('display', 'none');
-        $('.Design').css('display', 'none');
-        webClicked = true;
-        loadPackery();
-      } else {
+      if ($(this).hasClass('Web-active')) {
         $(this).removeClass('Web-active');
-        showAll();
-        webClicked = false;
-        loadPackery();
+        loadIsotope();
+      } else {
+        $(this).addClass('Web-active');
+
+        $('.grid').isotope({
+          itemSelector: '.grid-item',
+          masonry: {
+            columnWidth: '.grid-sizer',
+            gutter: 30
+          },
+          percentPosition: true,
+          transitionDuration: 150,
+          filter: function() {
+            return $(this).find('.project').hasClass('Web');
+          }
+        });
       }
     });
 
-    $('.Animation-filter').click(function () {
+    $('.Animation-filter').click(function() {
       $('.filter').removeClass('Web-active');
-      $('.filter').removeClass('Animation-active');
+      // $('.filter').removeClass('Animation-active');
       $('.filter').removeClass('Design-active');
-      showAll();
 
-      if (animationClicked == false) {
-        $(this).addClass('Animation-active');
-        $('.Web').css('display', 'none');
-        $('.Design').css('display', 'none');
-        loadPackery();
-        animationClicked = true;
-      } else {
+      if ($(this).hasClass('Animation-active')) {
         $(this).removeClass('Animation-active');
-        showAll();
-        loadPackery();
-        animationClicked = false;
+        loadIsotope();
+      } else {
+        $(this).addClass('Animation-active');
+
+        $('.grid').isotope({
+          itemSelector: '.grid-item',
+          masonry: {
+            columnWidth: '.grid-sizer',
+            gutter: 30
+          },
+          percentPosition: true,
+          transitionDuration: 150,
+          filter: function() {
+            return $(this).find('.project').hasClass('Animation');
+          }
+        });
       }
     });
 
-    $('.Design-filter').click(function () {
+    $('.Design-filter').click(function() {
       $('.filter').removeClass('Web-active');
       $('.filter').removeClass('Animation-active');
-      $('.filter').removeClass('Design-active');
-      showAll();
+      // $('.filter').removeClass('Design-active');
 
-      if (designClicked == false) {
-        $(this).addClass('Design-active');
-        $('.Animation').css('display', 'none');
-        $('.Web').css('display', 'none');
-        loadPackery();
-        designClicked = true;
-      } else {
+      if ($(this).hasClass('Design-active')) {
         $(this).removeClass('Design-active');
-        showAll();
-        loadPackery();
-        designClicked = false;
+        loadIsotope();
+      } else {
+        $(this).addClass('Design-active');
+
+        $('.grid').isotope({
+          itemSelector: '.grid-item',
+          masonry: {
+            columnWidth: '.grid-sizer',
+            gutter: 30
+          },
+          percentPosition: true,
+          transitionDuration: 150,
+          filter: function() {
+            return $(this).find('.project').hasClass('Design');
+          }
+        });
       }
     });
-
-    var showAll = function () {
-      $('.Web').css('display', 'block');
-      $('.Animation').css('display', 'block');
-      $('.Design').css('display', 'block');
-    };
   });
 </script>
