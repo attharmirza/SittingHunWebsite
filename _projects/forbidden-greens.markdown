@@ -7,7 +7,7 @@ position: 4
 description: Forbidden Greens is a landing page designed for a local musicians new
   single, by the same name. It's a visualization and music player, with a download
   link for the song.
-cover-image: "/uploads/forbidden-greens.png"
+cover-image: "/uploads/forbidden-greens-cover.png"
 primary-asset: "/uploads/forbidden-greens.png"
 ---
 

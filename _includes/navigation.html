@@ -7,9 +7,9 @@
     <a href="{{ site.url }}{{ site.baseurl }}/index.html">
       <div class="button" id="Projects">Projects</div>
     </a>
-    <div class="button filter" id="Web">Web</div>
-    <div class="button filter" id="Animation">Animation</div>
-    <div class="button filter" id="Design">Design</div>
+    <div class="button filter Web-filter">Web</div>
+    <div class="button filter Animation-filter">Animation</div>
+    <div class="button filter Design-filter">Design</div>
     <a href="{{ site.url }}{{ site.baseurl }}/story.html">
       <div class="button" id="Story">Story</div>
     </a>
@@ -44,3 +44,77 @@
     </div>
   </div>
 </div>
+
+<script>
+  $(document).ready(function() {
+    var webClicked = false;
+    var animationClicked = false;
+    var designClicked = false;
+
+    $('.Web-filter').click(function () {
+      $('.filter').removeClass('Web-active');
+      $('.filter').removeClass('Animation-active');
+      $('.filter').removeClass('Design-active');
+      showAll();
+
+      if (webClicked == false) {
+        $(this).addClass('Web-active');
+        $('.Animation').css('display', 'none');
+        $('.Design').css('display', 'none');
+        webClicked = true;
+        loadPackery();
+      } else {
+        $(this).removeClass('Web-active');
+        showAll();
+        webClicked = false;
+        loadPackery();
+      }
+    });
+
+    $('.Animation-filter').click(function () {
+      $('.filter').removeClass('Web-active');
+      $('.filter').removeClass('Animation-active');
+      $('.filter').removeClass('Design-active');
+      showAll();
+
+      if (animationClicked == false) {
+        $(this).addClass('Animation-active');
+        $('.Web').css('display', 'none');
+        $('.Design').css('display', 'none');
+        loadPackery();
+        animationClicked = true;
+      } else {
+        $(this).removeClass('Animation-active');
+        showAll();
+        loadPackery();
+        animationClicked = false;
+      }
+    });
+
+    $('.Design-filter').click(function () {
+      $('.filter').removeClass('Web-active');
+      $('.filter').removeClass('Animation-active');
+      $('.filter').removeClass('Design-active');
+      showAll();
+
+      if (designClicked == false) {
+        $(this).addClass('Design-active');
+        $('.Animation').css('display', 'none');
+        $('.Web').css('display', 'none');
+        loadPackery();
+        designClicked = true;
+      } else {
+        $(this).removeClass('Design-active');
+        showAll();
+        loadPackery();
+        designClicked = false;
+      }
+    });
+
+    var showAll = function () {
+      $('.Web').css('display', 'block');
+      $('.Animation').css('display', 'block');
+      $('.Design').css('display', 'block');
+    };
+  });
+</script>

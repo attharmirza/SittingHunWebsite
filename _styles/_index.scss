@@ -5,6 +5,7 @@
 // Masonry Configuration:
 
 .grid {
+  display: none;
   width: calc(100% - 40px);
   margin: 30px auto;
   padding-left: 30px;
@@ -23,12 +24,6 @@
     width: calc(25% - 30px);
   }
 }
-
-.grid-item {
-  margin-bottom: 20px;
-}
-
-// Project Thumbnail Styling:
 
 .project {
   // opacity: 0;
