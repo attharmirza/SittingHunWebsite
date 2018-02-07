@@ -10,28 +10,32 @@
       var closeAnimation = '{{ site.url }}{{ site.baseurl }}/graphics/animations/menuButton-close.json';
       var open = false;
 
-      // var anim = lottie.loadAnimation({
-      //   container: element,
-      //   renderer: 'svg',
-      //   loop: false,
-      //   autoplay: false,
-      //   path: closeAnimation
-      // });
-      //
-      // anim.play();
-      // anim.addEventListener('enterFrame', function(currentFrame) {
-      //   if (currentFrame.currentTime > (anim.totalFrames - 1)) {
-      //     anim.pause();
-      //   }
-      // });
+      var anim = lottie.loadAnimation({
+        container: element,
+        renderer: 'svg',
+        loop: false,
+        autoplay: false,
+        path: closeAnimation
+      });
+
+      anim.play();
+      anim.addEventListener('enterFrame', function(currentFrame) {
+        if (currentFrame.currentTime > (anim.totalFrames - 1)) {
+          anim.pause();
+        }
+      });
 
       $('#menuButton').click(function() {
         if (open == false) {
           $('#menuButton').find('svg').remove();
-          $('.content').css('width', '80%').css('max-width', 'calc(100% - 200px)');
-          if ('{{ page.title }}' == 'Home') {
-            loadGrid();
-          };
+          // $('.content').css('width', '80%').css('max-width', 'calc(100% - 200px)');
+          // $('.content').addClass('content-mobile');
+          $('.content').animate({left: '200px'}, 200);
+          // if ('{{ page.title }}' == 'Home') {
+          //   if ($('.filter').hasClass('Web-active') == false || $('.filter').hasClass('Animation-active') == false || $('.filter').hasClass('Design-active') == false) {
+          //     loadGrid();
+          //   }
+          // };
 
 
           var anim = lottie.loadAnimation({
@@ -52,10 +56,12 @@
           open = true;
         } else {
           $('#menuButton').find('svg').remove();
-          $('.content').css('width', '100%').css('max-width', '100%');
-          if ('{{ page.title }}' == 'Home') {
-            loadGrid();
-          };
+          // $('.content').css('width', '100%').css('max-width', '100%');
+          // $('.content').removeClass('content-mobile');
+          $('.content').animate({left: '0px'}, 200);
+          // if ('{{ page.title }}' == 'Home') {
+          //   loadGrid();
+          // };
 
           var anim = lottie.loadAnimation({
             container: element,
@@ -75,8 +81,8 @@
           open = false;
         };
       });
-      
-      $('#menuButton').trigger('click');
+
+      // $('#menuButton').trigger('click');
     });
   </script>
 </div>

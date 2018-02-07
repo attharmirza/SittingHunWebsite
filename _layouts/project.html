@@ -7,14 +7,73 @@
   <div class="content">
     {% include menu.html %}
     <div class="container">
-      {{ content }}
+      <!-- <div class="tertiaryAsset">
+        <div class="tertiaryGradient{% for item in page.categories %}-{{ item }}{% endfor %}">
+        </div>
+        <h2>{{ page.title }}</h2>
+      </div> -->
+      <div class="primaryVisual">
+        {% if page.primary-embed != null %}
+        {% if page.primary-embed contains 'vimeo' %}
+        <div class="primaryEmbed">
+          <iframe src={{ page.primary-embed }} frameborder="0" allowfullscreen></iframe>
+        </div>
+        {% elsif page.primary-embed contains 'youtu.be' %}
+        <div class="primaryEmbed">
+          <iframe src={{ page.primary-embed }} frameborder="0" allowfullscreen></iframe>
+        </div>
+        {% else %}
+        <div class="primaryEmbed-web">
+          <iframe src={{ page.primary-embed }} frameborder="0" allowfullscreen></iframe>
+        </div>
+        {% endif %}
+        {% else %}
+        <img class="primaryAsset" src={{ page.primary-asset }} />
+        {% endif %}
+      </div>
+      <div class="primaryText">
+        {{ content }}
+      </div>
+      {% for item in page.info %}
+      <div class="secondaryVisual">
+        {% if item.type == 'Image' %}
+        <div class="secondaryImage {{ item.style }}">
+          <img src={{ item.asset }} />
+          <div class="secondaryImage-shadow"></div>
+        </div>
+        {% elsif item.type == 'Text' %}
+        <p class="secondaryText">
+          {{ item.asset }}
+        </p>
+        {% endif %}
+      </div>
+      {% endfor %}
+      <div class="textDate">
+        <p>
+          {{ page.date | date: "%m.%d.%Y" }}
+        </p>
+      </div>
+      <!-- <div class="tertiaryAsset" style="background-image: url({{ site.url }}{{ site.baseurl }}{{ page.primary-asset }})"> -->
+      <div class="tertiaryAsset">
+        <div class="tertiaryGradient{% for item in page.categories %}-{{ item }}{% endfor %}">
+        </div>
+      </div>
     </div>
   </div>
 
   <script>
-    $(document).ready(function() {
-      $('.filter').hide();
-    });
+  $(document).ready(function () {
+    var embedWidth = $('.primaryEmbed').width();
+    var embedHeight = function () {
+      $('.primaryEmbed').height(function () {
+        return $('.primaryEmbed').width() * 0.5625;
+      });
+    };
+
+    embedHeight();
+
+    window.onresize = embedHeight;
+  });
   </script>
 </body>
 

@@ -15,9 +15,13 @@ $color-rose: #ff6666;
 $color-red: #f00a56;
 
 $gradient-web: linear-gradient(to right, $color-purple, $color-pink);
+$gradient-web-faded: linear-gradient(to right, rgba(0, 0, 0, 0), $color-pink);
 $gradient-animation: linear-gradient(to right, $color-orange, $color-yellow);
+$gradient-animation-faded: linear-gradient(to right, rgba(0, 0, 0, 0), $color-yellow);
 $gradient-design: linear-gradient(to right, $color-green, $color-cyan);
+$gradient-design-faded: linear-gradient(to right, rgba(0, 0, 0, 0), $color-cyan);
 $gradient-red: linear-gradient(to right, $color-rose, $color-red);
+$gradient-red-faded: linear-gradient(to right, rgba(0, 0, 0, 0), $color-red);
 $gradient-gray: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0) 50%);
 
 // Fonts
@@ -32,6 +36,7 @@ $font-date: normal 300 2em 'Libre Barcode 128 Text',Lato,sans-serif;
 // Variables
 $shadow-large: 0 0 100px 0px rgba(0, 0, 0, 0.17);
 $shadow-light: 0 0 50px 0px rgba(0, 0, 0, 0.2);
+$shadow-light-inset: inset $shadow-light;
 $shadow-pressed: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 
 $shadow-inset: inset 0 0 8px 4px rgba(255, 255, 255, 1);
@@ -43,6 +48,6 @@ $screen-wide: 1600px;
 @import "main";
 @import "navigation";
 @import "menu";
-@import "default";
 @import "index";
+@import "story";
 @import "project";

@@ -9,11 +9,9 @@ html {
 
 .content {
   z-index: 1;
-  // float: right;
   display: block;
   position: absolute;
   right: 0;
-  // min-width: 400px;
   width: 80%;
   max-width: calc(100% - 200px);
   height: 100%;
@@ -29,6 +27,28 @@ html {
   }
 }
 
+.content-mobile {
+  // transition: 0.2s;
+  // width: 80%;
+  // max-width: calc(100% - 200px);
+  left: 200px;
+  right: auto;
+  // transition: 0.2s;
+}
+
+.container {
+  width: 100%;
+
+  p {
+    max-width: 500px;
+    margin: 30px auto;
+
+    @media only screen and (max-width: $screen-small) {
+      padding: 0 20px;
+    }
+  }
+}
+
 h1 {
   font: $font-heading;
 }
@@ -41,6 +61,7 @@ p, div, a {
   font: $font-light;
   text-decoration: none;
   color: $color-black;
+  text-align: justify;
 }
 
 em {

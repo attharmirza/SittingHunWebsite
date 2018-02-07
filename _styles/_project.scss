@@ -1,3 +1,114 @@
-.container {
-  width: 100%;
+.primaryVisual {
+  text-align: center;
+}
+
+.primaryEmbed {
+  width: calc(100% - 40px);
+  // max-width: 1000px;
+  margin: 30px auto 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: $shadow-light;
+
+  &-web {
+    width: calc(100% - 40px);
+    // max-width: 1000px;
+    margin: 30px auto 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: $shadow-light;
+    height: 80%;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.primaryAsset {
+  width: calc(100% - 40px);
+  // max-width: 1000px;
+  margin: 30px auto 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: $shadow-light;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.secondaryImage {
+  position: relative;
+  // left: 50%;
+  // transform: translateX(-50%);
+  width: calc(100% - 40px);
+  max-width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+
+  &-shadow {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+    box-shadow: $shadow-light-inset;
+    // z-index: 1;
+  }
+
+  img {
+    width: 100%;
+    // z-index: 0;
+  }
+}
+
+.tertiaryAsset {
+  width: calc(100% - 40px);
+  // max-width: 1000px;
+  margin: 30px auto;
+  // max-width: 1000px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: $shadow-light-inset;
+  background-size: cover;
+  background-position: center;
+  // filter: grayscale(100%);
+}
+
+.tertiaryGradient {
+  &-Web {
+    height: 100%;
+    width: 100%;
+    box-shadow: $shadow-light-inset;
+    background: $gradient-web;
+    // background: $gradient-web-faded;
+
+  }
+  &-Animation {
+    height: 100%;
+    width: 100%;
+    box-shadow: $shadow-light-inset;
+    background: $gradient-animation;
+    // background: $gradient-animation-faded;
+  }
+  &-Design {
+    height: 100%;
+    width: 100%;
+    box-shadow: $shadow-light-inset;
+    background: $gradient-design;
+    // background: $gradient-design-faded;
+  }
 }

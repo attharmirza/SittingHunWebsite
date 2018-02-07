@@ -12,7 +12,7 @@ description: Just You Wait is a proposed renovation for waiting room spaces, spe
 cover-image: "/uploads/img2.jpg"
 primary-asset: "/uploads/img1.png"
 info:
-- type: Text
+- type: Image
   asset: "/uploads/img3-ee9043.png"
   style: Left
 - type: Image
