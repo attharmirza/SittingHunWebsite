@@ -28,7 +28,7 @@
         </div>
         {% endif %}
         {% else %}
-        <img class="primaryAsset" src={{ page.primary-asset }} />
+        <img class="primaryAsset" src="{{ site.url }}{{ site.baseurl }}{{ page.primary-asset }}" />
         {% endif %}
       </div>
       <div class="primaryText">
@@ -38,7 +38,7 @@
       <div class="secondaryVisual">
         {% if item.type == 'Image' %}
         <div class="secondaryImage {{ item.style }}">
-          <img src={{ item.asset }} />
+          <img src="{{ site.url }}{{ site.baseurl }}{{ item.asset }} "/>
           <div class="secondaryImage-shadow"></div>
         </div>
         {% elsif item.type == 'Text' %}
