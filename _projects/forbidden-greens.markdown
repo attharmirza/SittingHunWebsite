@@ -13,8 +13,6 @@ info:
 - type: Image
   asset: "/uploads/forbidden-greens-cover.png"
   style: Left
-- type: Image
-  style: Left, Right, Float
 ---
 
 [**Forbidden Greens**](https://forbidden-greens.netlify.com/) is a landing page designed for a local musicians new single, by the same name. It's a visualization and music player, with a download link for the song. The website was successful in its purpose: entertain visitors visually to keep them listening to the song through the end.
