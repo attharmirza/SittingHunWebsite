@@ -68,6 +68,24 @@
     // z-index: 1;
   }
 
+  &:hover {
+    cursor: zoom-in;
+  }
+
+  img {
+    width: 100%;
+    // z-index: 0;
+  }
+}
+
+.secondaryImage-zoomed {
+  width: calc(100% - 40px);
+  max-width: inherit;
+
+  &:hover {
+    cursor: zoom-out;
+  }
+
   img {
     width: 100%;
     // z-index: 0;

@@ -63,6 +63,7 @@
 
   <script>
   $(document).ready(function () {
+    // Iframe Resizing for Video Embeds
     var embedWidth = $('.primaryEmbed').width();
     var embedHeight = function () {
       $('.primaryEmbed').height(function () {
@@ -71,8 +72,22 @@
     };
 
     embedHeight();
-
     window.onresize = embedHeight;
+
+    // Zoom on Images
+    var zoomed = false;
+    var zoomImage = function () {
+      console.log('ba-da-bing');
+      if (zoomed == false) {
+        $(this).addClass('secondaryImage-zoomed');
+        zoomed = true;
+      } else {
+        $(this).removeClass('secondaryImage-zoomed');
+        zoomed = false;
+      }
+    };
+
+    $('.secondaryImage').click(zoomImage);
   });
   </script>
 </body>
