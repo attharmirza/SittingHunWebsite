@@ -12,7 +12,7 @@ description: Impossible Courage is an experience that uses virtual reality to pl
   the conversation, making it come from a point of understanding rather than a point
   of fear.
 cover-image: "/uploads/impossiblecourage_img1.png"
-primary-embed: "https://player.vimeo.com/video/211130315?color=d2d2d2&title=0&byline=0&portrait=0"
+primary-embed: https://player.vimeo.com/video/211130315?color=d2d2d2&title=0&byline=0&portrait=0
 info:
 - type: Image
   asset: "/uploads/impossiblecourage_img8.png"

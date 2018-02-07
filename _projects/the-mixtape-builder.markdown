@@ -8,7 +8,7 @@ description: The Mixtape Builder is a music streaming site designed to look like
   retro cassette player.
 cover-image: "/uploads/mixtape_stack.png"
 primary-asset: "/uploads/mixtape_cover.png"
-primary-embed: "https://attharmirza.github.io/MixtapeWebsite/the-mmt-tape"
+primary-embed: https://attharmirza.github.io/MixtapeWebsite/the-mmt-tape
 info:
 - type: Image
   asset: "/uploads/mixtape_stack.png"
