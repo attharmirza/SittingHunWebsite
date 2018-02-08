@@ -56,12 +56,12 @@
       var navPanel = $('.navPanel').height();
       var footer = $('.footer').height();
 
-      $('.navPanel').height(function () {
+      $('.navPanel').height(function() {
         return nav - footer;
       });
     };
-
     navigationHeight();
+
     $(window).resize(navigationHeight);
 
     if ('{{ page.title }}' == 'Home') {

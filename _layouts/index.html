@@ -35,13 +35,20 @@
   <script src="{{ site.url }}{{ site.baseurl }}/scripts/imagesloaded.min.js" type="text/javascript"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/scripts/jquery.plate.js" type="text/javascript"></script>
   <script>
+    // var contentHeight;
+    //
+    // var wrapperHeight = function() {
+    //   $('.wrapper').height(function() {
+    //     return contentHeight;
+    //   });
+    // };
+
     var loadGrid = function() {
       $('.grid').imagesLoaded(function() {
         $('.grid').css('visibility', 'visible');
-        // loadMasonry();
-        // loadPackery();
         loadIsotope();
-        // sequentialLoad($('.grid-item'));
+        // contentHeight = $('.content').height();
+        // wrapperHeight();
       });
     };
 
@@ -75,9 +82,7 @@
           perspective: 750,
           maxRotation: 8
         });
-      }
-
-      $('')
+      };
     });
   </script>
 </body>
