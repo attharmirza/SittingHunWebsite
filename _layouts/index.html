@@ -37,12 +37,28 @@
   <script>
     var loadGrid = function() {
       $('.grid').imagesLoaded(function() {
-        $('.grid').fadeIn(300);
+        $('.grid').css('visibility', 'visible');
         // loadMasonry();
         // loadPackery();
         loadIsotope();
+        // sequentialLoad($('.grid-item'));
       });
     };
+
+    // var sequentialLoad = function(items) {
+    //   $(items).each(function (index) {
+    //     $(this).delay(100*index).fadeIn(100);
+    //   });
+    // };
+
+    // var gridArray = $('.grid-item');
+    // console.log(gridArray);
+    // var gridItemLoad = function () {
+    //   for (i = 0; i < gridArray.length; i++) {
+    //     $(gridArray[i]).fadeOut(500);
+    //     console.log(gridArray[i]);
+    //   };
+    // };
 
     // var loadMasonry = function() {
     //   $('.grid').masonry({

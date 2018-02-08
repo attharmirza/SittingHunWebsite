@@ -1,7 +1,8 @@
 // Masonry Configuration:
 
 .grid {
-  display: none;
+  // display: none;
+  visibility: hidden;
   width: calc(100% - 40px);
   margin: 30px auto;
   padding-left: 30px;
@@ -22,6 +23,7 @@
 }
 
 .grid-item {
+  // display: none;
   margin-bottom: 20px;
   @media only screen and (max-width: $screen-small) {
     margin-bottom: 30px;
