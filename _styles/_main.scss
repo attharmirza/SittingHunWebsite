@@ -21,11 +21,10 @@ html {
   z-index: 1;
   display: block;
   position: relative;
-  right: 0;
   width: 80%;
   max-width: calc(100% - 200px);
   // height: 100%;
-  // min-height: 100vh;
+  min-height: 100vh;
   background: $color-white;
   overflow-x: hidden;
   overflow-y: auto;
@@ -35,6 +34,10 @@ html {
     width: 100%;
     max-width: 100%;
     box-shadow: $shadow-large;
+  }
+
+  @media only screen and (min-width: $screen-small) {
+    left: 20%;
   }
 }
 
