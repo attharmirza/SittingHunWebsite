@@ -1,7 +1,4 @@
 ---
----
-
----
 title: The Sitting Hun
 timezone: US/Eastern
 collections:
@@ -22,6 +19,7 @@ defaults:
     layout: default
     title:
     description:
+    social-image: "/uploads/siteimage.jpg"
 - scope:
     path: ''
     type: projects
@@ -39,7 +37,7 @@ defaults:
 description: The brand and portfolio of Atthar Mirza & Company.
 email: thesittinghun@gmail.com
 baseurl:
-url:
+url: 
 github_username: attharmirza
 sass:
   sass_dir: _styles

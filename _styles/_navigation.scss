@@ -1,6 +1,5 @@
 .navigation{
   z-index: 0;
-  // float: left;
   display: block;
   position: fixed;
   left: 0;
@@ -15,12 +14,6 @@
 }
 
 .navPanel {
-  // float: left;
-  // display: block;
-  // position: absolute;
-  // left: 0;
-  // width: 20%;
-  // min-width: 200px;
   height: calc(100% - 120px);
   min-height: 650px;
 }
@@ -96,14 +89,8 @@
 }
 
 .footer {
-  // float: left;
-  // position: absolute;
-  // left: 0;
-  // bottom: 0;
-  // width: 20%;
   min-width: 200px;
   height: 120px;
-  // background: $gradient-design;
 
   p {
     width: 60%;
