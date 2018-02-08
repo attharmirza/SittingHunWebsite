@@ -37,13 +37,21 @@
     var randomImage = function() {
       var randomNumber = Math.round((Math.random() * 4));
       if (randomNumber == 0) {
-        return 'url({{ site.url }}{{ site.baseurl }}/covers/coverimg1.png)'
+        return 'url({{ site.url }}{{ site.baseurl }}/covers/coverimg1.png)';
       } else {
         return 'url({{ site.url }}{{ site.baseurl }}/covers/coverimg' + randomNumber + '.png)';
       };
     };
 
-    console.log(randomImage());
+    var reelWidth = $('.textReel').width();
+    var reelHeight = function () {
+      $('.textReel').height(function () {
+        return $('.textReel').width() * 0.5625;
+      });
+    };
+
+    reelHeight();
+    $(window).resize(reelHeight);
 
     $('.textCover').css('background-image', randomImage());
   });

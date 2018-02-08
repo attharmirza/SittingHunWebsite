@@ -40,7 +40,7 @@ $shadow-light-inset: inset $shadow-light;
 $shadow-pressed: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 
 $shadow-inset: inset 0 0 8px 4px rgba(255, 255, 255, 1);
-$shadow-gradient: radial-gradient(rgb(0, 0, 0) 30%, rgba(255, 255, 255, 0) 100%);
+$shadow-gradient: radial-gradient(rgb(0, 0, 0) 30%, rgba(255, 255, 255, 1) 100%);
 
 $screen-small: 900px;
 $screen-wide: 1600px;
