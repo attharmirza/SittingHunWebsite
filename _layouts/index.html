@@ -3,34 +3,34 @@
 {% include info.html %}
 
 <body>
-  {% include navigation.html %}
-  <div class="content">
-    {% include menu.html %}
-    <div class="container">
-      <div class="grid">
-        <div class="grid-sizer"></div>
-        {% assign sorted_projects = site.projects | sort:"position" %} {% for project in sorted_projects %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}">
-          <div class="grid-item">
-            <div class="projectShadow">
-              <div class="project{% for item in project.categories %} {{ item }}{% endfor %}">
-                <img src="{{ site.url }}{{ site.baseurl }}{{ project.cover-image }}" />
-                <div class="projectImageTint"></div>
-                <div class="projectTitle">
-                  <p>{{ project.title }}</p>
-                  <p class="projectDate">{{ project.date | date: "%m.%d.%Y" }}</p>
+  <div class="wrapper">
+    {% include navigation.html %}
+    <div class="content">
+      {% include menu.html %}
+      <div class="container">
+        <div class="grid">
+          <div class="grid-sizer"></div>
+          {% assign sorted_projects = site.projects | sort:"position" %} {% for project in sorted_projects %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}">
+            <div class="grid-item">
+              <div class="projectShadow">
+                <div class="project{% for item in project.categories %} {{ item }}{% endfor %}">
+                  <img src="{{ site.url }}{{ site.baseurl }}{{ project.cover-image }}" />
+                  <div class="projectImageTint"></div>
+                  <div class="projectTitle">
+                    <p>{{ project.title }}</p>
+                    <p class="projectDate">{{ project.date | date: "%m.%d.%Y" }}</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </a>
-        {% endfor %}
+          </a>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- <script src="{{ site.url }}{{ site.baseurl }}/scripts/masonry.min.js" type="text/javascript"></script> -->
-  <!-- <script src="{{ site.url }}{{ site.baseurl }}/scripts/packery.min.js" type="text/javascript"></script> -->
   <script src="{{ site.url }}{{ site.baseurl }}/scripts/isotope.min.js" type="text/javascript"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/scripts/imagesloaded.min.js" type="text/javascript"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/scripts/jquery.plate.js" type="text/javascript"></script>
@@ -44,41 +44,6 @@
         // sequentialLoad($('.grid-item'));
       });
     };
-
-    // var sequentialLoad = function(items) {
-    //   $(items).each(function (index) {
-    //     $(this).delay(100*index).fadeIn(100);
-    //   });
-    // };
-
-    // var gridArray = $('.grid-item');
-    // console.log(gridArray);
-    // var gridItemLoad = function () {
-    //   for (i = 0; i < gridArray.length; i++) {
-    //     $(gridArray[i]).fadeOut(500);
-    //     console.log(gridArray[i]);
-    //   };
-    // };
-
-    // var loadMasonry = function() {
-    //   $('.grid').masonry({
-    //     itemSelector: '.grid-item',
-    //     columnWidth: '.grid-sizer',
-    //     percentPosition: true,
-    //     gutter: 30,
-    //     transitionDuration: 150
-    //   });
-    // };
-    //
-    // var loadPackery = function() {
-    //   $('.grid').packery({
-    //     itemSelector: '.grid-item',
-    //     columnWidth: '.grid-sizer',
-    //     percentPosition: true,
-    //     gutter: 30,
-    //     transitionDuration: 150
-    //   });
-    // };
 
     var loadIsotope = function() {
       $('.grid').isotope({
@@ -111,6 +76,8 @@
           maxRotation: 8
         });
       }
+
+      $('')
     });
   </script>
 </body>
