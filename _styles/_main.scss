@@ -66,6 +66,10 @@ p, div, a {
   text-align: justify;
 }
 
+a:hover {
+  color: $color-red;
+}
+
 em {
   font: $font-italic;
 }
