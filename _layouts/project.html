@@ -3,102 +3,101 @@
 {% include info.html %}
 
 <body>
-  {% include navigation.html %}
-  <div class="content">
-    {% include menu.html %}
-    <div class="container">
-      <!-- <div class="tertiaryAsset">
+  <div class="wrapper">
+    {% include navigation.html %}
+    <div class="content">
+      {% include menu.html %}
+      <div class="container">
+        <!-- <div class="tertiaryAsset">
         <div class="tertiaryGradient{% for item in page.categories %}-{{ item }}{% endfor %}">
         </div>
         <h2>{{ page.title }}</h2>
       </div> -->
-      <div class="primaryVisual">
-        {% if page.primary-embed != null %}
-        {% if page.primary-embed contains 'vimeo' %}
-        <div class="primaryEmbed">
-          <iframe src={{ page.primary-embed }} frameborder="0" allowfullscreen></iframe>
+        <div class="primaryVisual">
+          {% if page.primary-embed != null %} {% if page.primary-embed contains 'vimeo' %}
+          <div class="primaryEmbed">
+            <iframe src={{ page.primary-embed }} frameborder="0" allowfullscreen></iframe>
+          </div>
+          {% elsif page.primary-embed contains 'youtu.be' %}
+          <div class="primaryEmbed">
+            <iframe src={{ page.primary-embed }} frameborder="0" allowfullscreen></iframe>
+          </div>
+          {% else %}
+          <div class="primaryEmbed-web">
+            <iframe src={{ page.primary-embed }} frameborder="0" allowfullscreen></iframe>
+          </div>
+          {% endif %} {% else %}
+          <img class="primaryAsset" src="{{ site.url }}{{ site.baseurl }}{{ page.primary-asset }}" /> {% endif %}
         </div>
-        {% elsif page.primary-embed contains 'youtu.be' %}
-        <div class="primaryEmbed">
-          <iframe src={{ page.primary-embed }} frameborder="0" allowfullscreen></iframe>
+        <div class="primaryText">
+          {{ content }}
         </div>
-        {% else %}
-        <div class="primaryEmbed-web">
-          <iframe src={{ page.primary-embed }} frameborder="0" allowfullscreen></iframe>
+        {% for item in page.info %}
+        <div class="secondaryVisual">
+          {% if item.type == 'Image' %}
+          <div class="secondaryImage {{ item.style }}">
+            <img src="{{ site.url }}{{ site.baseurl }}{{ item.asset }} " />
+            <div class="secondaryImage-shadow"></div>
+          </div>
+          {% elsif item.type == 'Text' %}
+          <p class="secondaryText">
+            {{ item.asset }}
+          </p>
+          {% endif %}
         </div>
-        {% endif %}
-        {% else %}
-        <img class="primaryAsset" src="{{ site.url }}{{ site.baseurl }}{{ page.primary-asset }}" />
-        {% endif %}
-      </div>
-      <div class="primaryText">
-        {{ content }}
-      </div>
-      {% for item in page.info %}
-      <div class="secondaryVisual">
-        {% if item.type == 'Image' %}
-        <div class="secondaryImage {{ item.style }}">
-          <img src="{{ site.url }}{{ site.baseurl }}{{ item.asset }} "/>
-          <div class="secondaryImage-shadow"></div>
+        {% endfor %}
+        <div class="textDate">
+          <p>
+            {{ page.date | date: "%m.%d.%Y" }}
+          </p>
         </div>
-        {% elsif item.type == 'Text' %}
-        <p class="secondaryText">
-          {{ item.asset }}
-        </p>
-        {% endif %}
-      </div>
-      {% endfor %}
-      <div class="textDate">
-        <p>
-          {{ page.date | date: "%m.%d.%Y" }}
-        </p>
-      </div>
-      <!-- <div class="tertiaryAsset" style="background-image: url({{ site.url }}{{ site.baseurl }}{{ page.primary-asset }})"> -->
-      <div class="tertiaryAsset">
-        <div class="tertiaryGradient{% for item in page.categories %}-{{ item }}{% endfor %}">
+        <!-- <div class="tertiaryAsset" style="background-image: url({{ site.url }}{{ site.baseurl }}{{ page.primary-asset }})"> -->
+        <div class="tertiaryAsset">
+          <div class="tertiaryGradient{% for item in page.categories %}-{{ item }}{% endfor %}">
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <script>
-  $(document).ready(function () {
-    // Iframe Resizing for Video Embeds
-    var embedWidth = $('.primaryEmbed').width();
-    var embedHeight = function () {
-      $('.primaryEmbed').height(function () {
-        return $('.primaryEmbed').width() * 0.5625;
-      });
-    };
+    $(document).ready(function() {
+      // Iframe Resizing for Video Embeds
+      var embedWidth = $('.primaryEmbed').width();
+      var embedHeight = function() {
+        $('.primaryEmbed').height(function() {
+          return $('.primaryEmbed').width() * 0.5625;
+        });
+      };
 
-    // var embedAssetWidth = $('.primaryAsset').height();
-    // var embedAssetHeight = function () {
-    //   $('.primaryAsset').width(function () {
-    //     return $('.primaryAsset').height() * 0.5625;
-    //   });
-    // };
-    // embedAssetHeight();
+      // var embedAssetWidth = $('.primaryAsset').height();
+      // var embedAssetHeight = function () {
+      //   $('.primaryAsset').width(function () {
+      //     return $('.primaryAsset').height() * 0.5625;
+      //   });
+      // };
+      // embedAssetHeight();
 
-    embedHeight();
-    $(window).resize(embedHeight);
+      embedHeight();
+      $(window).resize(embedHeight);
 
-    // Zoom on Images
-    var zoomed = false;
-    var zoomImage = function () {
-      console.log('ba-da-bing');
-      if (zoomed == false) {
-        $(this).addClass('secondaryImage-zoomed');
-        zoomed = true;
-      } else {
-        $(this).removeClass('secondaryImage-zoomed');
-        zoomed = false;
-      }
-    };
+      // Zoom on Images
+      var zoomed = false;
+      var zoomImage = function() {
+        console.log('ba-da-bing');
+        if (zoomed == false) {
+          $(this).addClass('secondaryImage-zoomed');
+          zoomed = true;
+        } else {
+          $(this).removeClass('secondaryImage-zoomed');
+          zoomed = false;
+        }
+      };
 
-    $('.secondaryImage').click(zoomImage);
+      $('.secondaryImage').click(zoomImage);
 
-    $('.content').find('a').attr('target', '_blank');
-  });
+      $('.content').find('a').attr('target', '_blank');
+    });
   </script>
 </body>
 

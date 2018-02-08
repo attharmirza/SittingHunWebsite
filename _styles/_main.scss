@@ -3,14 +3,17 @@ html {
   // position: absolute;
   margin: 0;
   padding: 0;
-  width: 100vw;
+  // width: 100vw;
   // height: 100%;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 .wrapper {
-  // position: absolute;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 

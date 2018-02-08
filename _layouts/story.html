@@ -3,29 +3,31 @@
 {% include info.html %}
 
 <body>
-  {% include navigation.html %}
-  <div class="content">
-    {% include menu.html %}
-    <div class="container">
-      <div class="textReel">
-        <iframe src="https://www.youtube.com/embed/-InwSPD8F_g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-      <div class="textCard">
-        <!-- <div class="textShadow"> -->
-        <!-- <div class="txextBox"> -->
-        <div class="textContent">
-          {{ content }}
+  <div class="wrapper">
+    {% include navigation.html %}
+    <div class="content">
+      {% include menu.html %}
+      <div class="container">
+        <div class="textReel">
+          <iframe src="https://www.youtube.com/embed/-InwSPD8F_g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <div class="textDate">
-          <p>
-            {{ page.date | date: "%m.%d.%Y" }}
-          </p>
+        <div class="textCard">
+          <!-- <div class="textShadow"> -->
+          <!-- <div class="txextBox"> -->
+          <div class="textContent">
+            {{ content }}
+          </div>
+          <div class="textDate">
+            <p>
+              {{ page.date | date: "%m.%d.%Y" }}
+            </p>
+          </div>
+          <!-- </div> -->
+          <!-- </div> -->
         </div>
-        <!-- </div> -->
-        <!-- </div> -->
-      </div>
-      <div class="textCover">
-        <div class="textGradient">
+        <div class="textCover">
+          <div class="textGradient">
+          </div>
         </div>
       </div>
     </div>
@@ -44,8 +46,8 @@
     };
 
     var reelWidth = $('.textReel').width();
-    var reelHeight = function () {
-      $('.textReel').height(function () {
+    var reelHeight = function() {
+      $('.textReel').height(function() {
         return $('.textReel').width() * 0.5625;
       });
     };
