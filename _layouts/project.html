@@ -82,15 +82,15 @@
       $(window).resize(embedHeight);
 
       // Zoom on Images
-      var zoomed = false;
+      // var zoomed = false;
       var zoomImage = function() {
         console.log('ba-da-bing');
-        if (zoomed == false) {
+        if ($(this).hasClass('secondaryImage-zoomed') == false) {
           $(this).addClass('secondaryImage-zoomed');
-          zoomed = true;
+          // zoomed = true;
         } else {
           $(this).removeClass('secondaryImage-zoomed');
-          zoomed = false;
+          // zoomed = false;
         }
       };
 

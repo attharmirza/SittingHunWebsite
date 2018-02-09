@@ -51,6 +51,7 @@
   border-radius: 10px;
   overflow: hidden;
   height: auto;
+  // transition: 0.1s;
 
   &-shadow {
     position: absolute;
@@ -75,6 +76,7 @@
 .secondaryImage-zoomed {
   width: calc(100% - 40px);
   max-width: inherit;
+  // transition: 0.1s;
 
   &:hover {
     cursor: zoom-out;
