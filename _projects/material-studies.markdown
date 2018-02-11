@@ -9,9 +9,12 @@ description: These Procedural Material Studies were created using the cycles ren
   procedural texturing. None of the renders use tiled image textures, everything was
   constructed with various compositing techniques and fractal patterns (noise, voronoi
   textures, etc.).
-cover-image: "/uploads/img2-27bfc3.jpg"
-primary-asset: "/uploads/img1-a10645.png"
+cover-image: "/uploads/ColumnsGrass.png"
+primary-asset: "/uploads/ColumnsGrass.png"
 info:
+- type: Image
+  asset: "/uploads/Pillars.png"
+  style: Float
 - type: Text
   asset: These scenes were built from procedural material tests, shown below. The
     tests were created using the cycles render engine in Blender 2.76. The goal was
