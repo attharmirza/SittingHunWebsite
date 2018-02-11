@@ -1,6 +1,6 @@
 ---
 title: You Are Here
-date: 2018-02-11 15:46:00 -05:00
+date: 2017-09-06 15:46:00 -04:00
 categories:
 - Animation
 description: 'You Are Here is a web series from The Atlantic that explores the science
