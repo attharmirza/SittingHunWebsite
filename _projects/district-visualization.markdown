@@ -25,4 +25,4 @@ info:
 
 [**The Interactive District Map**](https://attharmirza.github.io/DistrictVisualizer/) is a D3 visualization of congressional districts throughout US history. This was designed to show the effects of gerrymandering.
 
-The project began as a way of converting congressional data into vector shapes for an animation, in collaboration with Vann R. Newkirk II at The Atlantic. I kept tinkering with it, and turned it into a fully interactive website and tool for people investigating gerrymandering.
+The project began as a way of converting congressional data into vector shapes for an animation, in collaboration with Vann R. Newkirk II at *The Atlantic*. I kept tinkering with it, and turned it into a fully interactive website and tool for people investigating gerrymandering.
