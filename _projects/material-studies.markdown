@@ -19,9 +19,9 @@ info:
     use only 3 tiled image textures, everything else was constructed with various
     compositing techniques and fractal patterns (noise, voronoi textures, etc.).
   style: None
-- type: 
+- type: Image
   asset: "/uploads/img1-a10645.png"
-  style: 
+  style: Float
 - type: Image
   asset: "/uploads/img2-27bfc3.jpg"
   style: Left
