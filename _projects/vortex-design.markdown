@@ -9,7 +9,7 @@ description: Vortex 2016 was a 3-day competition sponsored by the University of 
   I created the logo, its animated version, and a few timelapses showing the teams
   working. The animated logo was viewed hundreds of times and shared across the architecture
   school.
-cover-image: "/uploads/Screen%20Shot%202016-01-30%20at%203.31.45%20PM.png"
+cover-image: "/uploads/Logo_Animation_v1_Square_FullName.png"
 primary-asset: "/uploads/Logo_Animation_v1_Square_Loop.gif"
 primary-embed: https://player.vimeo.com/video/200586563?title=0&byline=0&portrait=0
 info:
