@@ -1,6 +1,6 @@
 ---
 title: My Workspace
-date: 2018-02-11 13:31:00 -05:00
+date: 2017-12-21 13:31:00 -05:00
 categories:
 - Animation
 description: My Workspace is a web series from The Atlantic exploring the environments
