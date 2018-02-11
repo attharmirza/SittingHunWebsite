@@ -10,10 +10,10 @@ cover-image: "/uploads/MonaLisa_WebsiteCover.png"
 primary-embed: https://www.youtube.com/embed/GyT1wPQSER8
 info:
 - type: Image
-  asset: "/uploads/MonaLisa_GIF3_loop.gif"
+  asset: "/uploads/MonaLisa_GIF4_loop.gif"
   style: Float
 - type: Image
-  asset: "/uploads/MonaLisa_GIF4_loop.gif"
+  asset: "/uploads/MonaLisa_GIF3_loop.gif"
   style: Float
 - type: Image
   asset: "/uploads/MonaLisa_Website.png"
