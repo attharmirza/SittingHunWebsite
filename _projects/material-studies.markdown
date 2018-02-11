@@ -33,6 +33,6 @@ info:
   style: Right
 ---
 
-**Surreal Galleries** that I used to stretch my CG rendering skills as far as I could. The project is loosely inspired by *The Mysteries of Harris Burdick*. I created scenes that tell a story, they look real but don't quite fit into any imagined scenario.
+**Surreal Galleries** is a project that I used to stretch my CG rendering skills as far as I could. The project is loosely inspired by *The Mysteries of Harris Burdick*. I created scenes that tell a story, they look real but don't quite fit into any imagined scenario.
 
 Some specific techniques I learned include: using randomized particle fields attached to mesh surfaces to make natural grass, combining and subtracting noise textures to make realistic cracks in marble, and using mesh displacement and procedural bump maps to give the gold and bricks a beaten look.
