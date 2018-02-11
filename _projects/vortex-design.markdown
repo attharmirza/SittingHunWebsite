@@ -1,5 +1,5 @@
 ---
-title: Vortex Design
+title: Vortex Competition Branding
 date: 2016-01-19 19:47:00 -05:00
 categories:
 - Design
