@@ -4,11 +4,10 @@ date: 2016-08-24 14:55:00 -04:00
 categories:
 - Animation
 position: 3
-description: These Procedural Material Studies were created using the cycles render
-  engine in Blender 2.76. The goal was to approach hyper realism using only node-based
-  procedural texturing. None of the renders use tiled image textures, everything was
-  constructed with various compositing techniques and fractal patterns (noise, voronoi
-  textures, etc.).
+description: Surreal Galleries is a project that I used to stretch my CG rendering
+  skills as far as I could. The project is loosely inspired by "The Mysteries of Harris
+  Burdick." I created scenes that tell a story, they look real but don't quite fit
+  into any imagined scenario.
 cover-image: "/uploads/ColumnsGrass_v2.png"
 primary-asset: "/uploads/ColumnsGrass_v2.png"
 info:
