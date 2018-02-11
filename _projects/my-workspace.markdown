@@ -4,8 +4,7 @@ date: 2017-12-21 13:31:00 -05:00
 categories:
 - Animation
 description: My Workspace is a web series from The Atlantic exploring the environments
-  groundbreaking artists inhabit while making their art. I had the awesome opportunity
-  to animate the title sequence and branding for this series.
+  groundbreaking artists inhabit, and how these workspaces influence the final piece.
 cover-image: "/uploads/Workspace_00039.png"
 primary-embed: https://www.youtube.com/embed/54eTTejh6EY
 info:
