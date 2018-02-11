@@ -15,6 +15,6 @@ info:
   style: Left
 ---
 
-[**Forbidden Greens**](https://forbidden-greens.netlify.com/) is a landing page designed for a local musicians new single, by the same name. It's a visualization and music player, with a download link for the song. While you listen to the song, you can draw "vines" across the window. The website was successful in its purpose: entertain visitors visually to keep them listening to the song through the end.
+[**Forbidden Greens**](https://forbidden-greens.netlify.com/) is a landing page designed for a local musician's new single, by the same name. It's a visualization and music player, with a download link for the song. While you listen to the song, you can draw "vines" across the window. The website was successful in its purpose: entertain visitors visually to keep them listening to the song through the end.
 
-This was an opportunity for me to learn html5's audio features and play with a newer web visualization language called p5.js.
+This was an opportunity for me to learn html5's audio features and play with the JavaScript adaptation of Processing: p5.
