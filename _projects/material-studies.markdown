@@ -9,8 +9,8 @@ description: These Procedural Material Studies were created using the cycles ren
   procedural texturing. None of the renders use tiled image textures, everything was
   constructed with various compositing techniques and fractal patterns (noise, voronoi
   textures, etc.).
-cover-image: "/uploads/ColumnsGrass.png"
-primary-asset: "/uploads/ColumnsGrass.png"
+cover-image: "/uploads/ColumnsGrass_v2.png"
+primary-asset: "/uploads/ColumnsGrass_v2.png"
 info:
 - type: Image
   asset: "/uploads/Pillars.png"
