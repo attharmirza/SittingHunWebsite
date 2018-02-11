@@ -13,7 +13,8 @@ cover-image: "/uploads/Screen%20Shot%202016-01-30%20at%203.31.45%20PM.png"
 primary-asset: "/uploads/Logo_Animation_v1_Square_Loop.gif"
 primary-embed: https://player.vimeo.com/video/200586563?title=0&byline=0&portrait=0
 info:
-- asset: "/uploads/Logo_Animation_v1_Square_Loop.gif"
+- type: Image
+  asset: "/uploads/Logo_Animation_v1_Square_Loop.gif"
   style: Float
 ---
 
