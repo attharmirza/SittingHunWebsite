@@ -26,4 +26,6 @@ info:
   style: Float
 ---
 
-**My Workspace** is a web series from *The Atlantic* exploring the environments groundbreaking artists inhabit while making their art. I had the awesome opportunity to animate the title sequence and branding for this series.
+**My Workspace** is a web series from *The Atlantic* exploring the environments groundbreaking artists inhabit, and how these workspaces influence the final piece. 
+
+I had the awesome opportunity to animate the title sequence, and do some basic branding. It was a lot of fun to dive into the typography and imagine how each letter was constructed. This theme of construction and architecture is at the core of the series, so it worked out well.
