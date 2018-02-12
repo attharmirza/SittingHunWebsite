@@ -1,6 +1,6 @@
 ---
 title: 8x10s and Murals
-date: 2018-02-11 23:52:00 -05:00
+date: 2016-02-13 23:52:00 -05:00
 categories:
 - Animation
 position: 8
