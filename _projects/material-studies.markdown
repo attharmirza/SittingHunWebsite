@@ -3,7 +3,7 @@ title: Surreal Galleries
 date: 2016-08-24 14:55:00 -04:00
 categories:
 - Animation
-position: 4
+position: 5
 description: Surreal Galleries is a project that I used to stretch my CG rendering
   skills as far as I could. The project is loosely inspired by "The Mysteries of Harris
   Burdick." I created scenes that tell a story, they look real but don't quite fit

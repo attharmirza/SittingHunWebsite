@@ -3,6 +3,7 @@ title: Berlin Wall
 date: 2014-10-27 23:45:00 -04:00
 categories:
 - Animation
+position: 8
 description: Breaking Down the Berlin Wall is a short film that commemorates the 25th
   Anniversary of the Fall of the Berlin Wall by re-examining it's history as a series
   of creative escapes to West Berlin. The lengths to which people went to cross the
