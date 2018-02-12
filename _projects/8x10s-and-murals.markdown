@@ -18,6 +18,16 @@ info:
 - type: Image
   asset: "/uploads/img2-91ce75.png"
   style: Float
+- type: Text
+  asset: I also designed the album art for the project, which was to symbolize the
+    ultimately unfulfilling nature of material things.
+  style: None
+- type: Image
+  asset: "/uploads/Step14_8x10_Final.png"
+  style: Float
+- type: Image
+  asset: "/uploads/8x10s_Process.gif"
+  style: Float
 ---
 
 **8x10's and Murals** is the official music video for Nonchabont's song of the same name. The majority of this music video contains a combination of 3D animation and frame-by-frame animation at 24 frames per second. It took a lot of labor and patience to complete, but the effect is mesmerizing. 
