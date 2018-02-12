@@ -8,6 +8,7 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: $shadow-light;
+  background: $color-black;
 
   &-web {
     width: calc(100% - 40px);
