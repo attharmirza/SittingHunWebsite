@@ -3,7 +3,7 @@ title: Vortex Competition Branding
 date: 2016-01-19 19:47:00 -05:00
 categories:
 - Design
-position: 10
+position: 11
 description: Vortex 2016 was a 3-day competition sponsored by the University of Virginia
   Architecture School. I was on the communications team for the event, in charge of
   creating branding and promotional content around the competition. Within the team,

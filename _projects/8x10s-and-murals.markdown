@@ -3,6 +3,7 @@ title: 8x10s and Murals
 date: 2018-02-11 23:52:00 -05:00
 categories:
 - Animation
+position: 8
 description: 8x10's and Murals is the official music video for Nonchabont's song of
   the same name. The majority of this music video contains a combination of 3D animation
   and frame-by-frame animation at 24 frames per second. It took a lot of labor and
