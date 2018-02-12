@@ -1,6 +1,6 @@
 ---
 title: 8x10s and Murals
-date: 2018-02-11 23:52:00 -05:00
+date: 2016-02-13 23:52:00 -05:00
 categories:
 - Animation
 position: 8
@@ -17,6 +17,16 @@ info:
   style: Float
 - type: Image
   asset: "/uploads/img2-91ce75.png"
+  style: Float
+- type: Text
+  asset: I also designed the album art for the project, which was to symbolize the
+    ultimately unfulfilling nature of material things.
+  style: None
+- type: Image
+  asset: "/uploads/Step14_8x10_Final.png"
+  style: Float
+- type: Image
+  asset: "/uploads/8x10s_Process.gif"
   style: Float
 ---
 
