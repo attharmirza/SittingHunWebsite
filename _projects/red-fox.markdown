@@ -23,6 +23,13 @@ info:
 - type: Image
   asset: "/uploads/3_FoxAndStage_small.png"
   style: Float
+- type: Text
+  asset: 'I also made an elk for fun, after seeing Thranduil''s elk in The Hobbit.
+    Mine has modest antlers, though:'
+  style: 
+- type: Image
+  asset: "/uploads/Elk.png"
+  style: Float
 ---
 
 These renders of a **red fox** were done as an exercise in character rigging. The low poly mesh was made, rigged, weight painted and animated in Blender. I did my best to replicate the grace of a red fox, but I can't claim to have captured the majesty of the real animal.
