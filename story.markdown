@@ -1,13 +1,13 @@
 ---
 title: Story
 date: 2018-02-03 15:26:00 -05:00
-layout: story
 description: Atthar Mirza is a web developer, animator, and designer. He loves interactive
   graphics and 3D modeling because they allow him to extract the images in his brain
   and bring them to life. Most recently, Atthar Mirza works at the Atlantic as a professional
   animator and web developer, pitching and creating original work. He has been doing
   professional freelance work under the brand The Sitting Hun since 2012, and is thankful
   the Mayans were wrong because he was just getting started.
+layout: story
 ---
 
 **The Sitting Hun** began with my family. My cousins, little brother, and I grew up together in Seattle, WA. As my interest in film grew, they all got pulled along with me. Well, pulled along until they were old enough to realize they had their own interests.
@@ -20,4 +20,4 @@ My uncle told me my family originates from the Mongols, and possibly directly fr
 
 —
 
-**Atthar Mirza** is a web developer, animator, and designer. He loves interactive graphics and 3D modeling because they allow him to extract the images in his brain and bring them to life. Most recently, Atthar Mirza works at *The Atlantic* as a professional animator and web developer, pitching and creating original work. He has been doing professional freelance work under the brand The Sitting Hun since 2012, and is thankful the Mayans were wrong because he was just getting started.
+**Atthar Mirza** is a web developer, animator, and designer. He loves interactive graphics and 3D modeling because they allow him to extract the images in his brain and bring them to life. Currently, Atthar Mirza works at *The Atlantic* as a professional animator and web developer, pitching and creating original work. He has been doing professional freelance work under the brand The Sitting Hun since 2012, and is thankful the Mayans were wrong because he was just getting started.
