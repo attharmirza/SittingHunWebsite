@@ -28,7 +28,7 @@ info:
     Mine has modest antlers, though:'
   style: 
 - type: Image
-  asset: "/uploads/Elk.png"
+  asset: "/uploads/Elk2.png"
   style: Float
 ---
 
