@@ -3,7 +3,7 @@ title: Impossible Courage
 date: 2017-05-16 14:28:00 -04:00
 categories:
 - Animation
-position: 6
+position: 7
 description: Impossible Courage is an experience that uses virtual reality to place
   people in the shoes of lives we otherwise couldn’t imagine. It is based on the asylum
   seekers leaving from Northern Africa to enter Europe through Italy. The goal is
