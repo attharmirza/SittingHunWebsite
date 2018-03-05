@@ -24,6 +24,9 @@ info:
 - type: Image
   asset: "/uploads/K.gif"
   style: Float
+- type: Image
+  asset: "/uploads/IMG_20180220_182450.png"
+  style: Float
 ---
 
 **My Workspace** is a web series from *The Atlantic* exploring the environments groundbreaking artists inhabit, and how these workspaces influence the final piece. 
