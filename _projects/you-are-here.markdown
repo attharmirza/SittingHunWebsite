@@ -13,10 +13,7 @@ cover-image: "/uploads/YAHSwearing_Website.png"
 primary-embed: https://www.youtube.com/embed/ffbOy4BaxI0
 info:
 - type: Image
-  asset: "/uploads/YAHSwearing_Website.png"
-  style: Float
-- type: Image
-  asset: "/uploads/Thumbnail_website_v2.png"
+  asset: "/uploads/GIF1"
   style: Float
 ---
 
