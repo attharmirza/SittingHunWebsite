@@ -8,6 +8,7 @@ description: A D3 visualization of congressional districts throughout US history
   This was designed to show the effects of gerrymandering.
 cover-image: "/uploads/congressional-district-cover.png"
 primary-asset: "/uploads/attharmirza.github.io_DistrictVisualizer_.png"
+primary-embed: https://attharmirza.github.io/DistrictVisualizer/
 info:
 - type: Image
   asset: "/uploads/districtviz1.png"
