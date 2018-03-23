@@ -8,7 +8,7 @@ description: I worked alongside developers and a documentary producer at The Atl
   allowed me to travel into the field at a juvenile detention center, film with cutting-edge
   and untested equipment, and animate/composite 3D animation onto VR footage.
 cover-image: "/uploads/Screen%20Shot%202018-02-27%20at%2010.31.36%20PM%20(2)%20Square.png"
-primary-embed: https://www.theatlantic.com/projects/juvenile-justice/
+primary-embed: https://www.youtube.com/embed/yO9bMkCFI9s
 info:
 - type: Image
   asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.29.33%20PM%20(2).png"
@@ -17,7 +17,7 @@ info:
   asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.30.44%20PM%20(2).png"
   style: Float
 - type: Image
-  asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.31.36%20PM%20(2)%20Square-b5a5dc.png"
+  asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.31.36%20PM%20(2).png"
   style: Float
 ---
 
