@@ -7,6 +7,18 @@ description: I worked alongside developers and a documentary producer at The Atl
   and created their first virtual reality films with composited animation. The opportunity
   allowed me to travel into the field at a juvenile detention center, film with cutting-edge
   and untested equipment, and animate/composite 3D animation onto VR footage.
+cover-image: "/uploads/Screen%20Shot%202018-02-27%20at%2010.31.36%20PM%20(2)%20Square.png"
+primary-embed: https://www.theatlantic.com/projects/juvenile-justice/
+info:
+- type: Image
+  asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.29.33%20PM%20(2).png"
+  style: Float
+- type: Image
+  asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.30.44%20PM%20(2).png"
+  style: Float
+- type: Image
+  asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.31.36%20PM%20(2)%20Square-b5a5dc.png"
+  style: Float
 ---
 
 For the **Juvenile Detention** project, I worked alongside developers and a documentary producer at *The Atlantic* and created their first virtual reality films with composited animation. The opportunity allowed me to travel into the field at a juvenile detention center, film with cutting-edge and untested equipment, and animate/composite 3D animation onto VR footage.
