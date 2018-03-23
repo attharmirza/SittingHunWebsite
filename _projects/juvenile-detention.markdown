@@ -11,13 +11,13 @@ cover-image: "/uploads/Screen%20Shot%202018-02-27%20at%2010.31.36%20PM%20(2)%20S
 primary-embed: https://www.youtube.com/embed/yO9bMkCFI9s
 info:
 - type: Image
+  asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.31.36%20PM%20(2).png"
+  style: Float
+- type: Image
   asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.29.33%20PM%20(2).png"
   style: Float
 - type: Image
   asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.30.44%20PM%20(2).png"
-  style: Float
-- type: Image
-  asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.31.36%20PM%20(2).png"
   style: Float
 - type: Text
   asset: A lot of the challenge around this project involved paving new ground. Nobody
