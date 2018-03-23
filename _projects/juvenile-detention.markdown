@@ -25,4 +25,4 @@ For the **Juvenile Detention** project, I worked alongside developers and a docu
 
 The project involved side-by-side equirectangular footage stitched from two cameras. To composite animated characters into the filmed environments, I recreated them and the VR camera in Blender and used multiple render passes to blend the footage. A lot of the challenge around this project involved paving new ground. Nobody around me had ever done anything like this before, so I had to learn and innovate as it developed.
 
-The final project premiered at an Atlantic LIVE event in Washington DC, with US State Senators and juvenile justice experts in attendance. It was published in a unique landing page on *The Atlantic*'s website. View the project [**here**](https://www.theatlantic.com/projects/juvenile-justice/).
+The final project premiered at an Atlantic LIVE event in Washington DC, with US State Senators and juvenile justice experts in attendance. It was also published on a unique landing page on *The Atlantic*'s website. View the project [**here**](https://www.theatlantic.com/projects/juvenile-justice/).
