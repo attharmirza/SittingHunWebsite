@@ -25,11 +25,10 @@ info:
     as it developed.
   style: None
 - type: Text
-  asset: 'The project involved side-by-side equirectangular footage stitched from
-    two separate videos, as seen below. To composite animated characters into these
-    environments, I recreated them and the VR camera in Blender and used multiple
-    render passes to blend the footage. This meant planning the shots ahead as much
-    as possible ahead of time, and keeping them at a fixed height. '
+  asset: The project involved side-by-side equirectangular footage stitched from two
+    separate videos, as seen below. To composite animated characters into these environments,
+    I recreated them and the VR camera in Blender and used multiple render passes
+    to composite everything.
   style: None
 - type: Image
   asset: "/uploads/vlcsnap-2018-03-22-22h29m08s343.png"
