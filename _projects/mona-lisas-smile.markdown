@@ -8,7 +8,7 @@ description: Mona Lisa's Smile was an animation produced as an accompaniment to 
   cover story for The Atlantic. The animation explores the science behind Leonardo
   Da Vinci's legendary painting.
 cover-image: "/uploads/MonaLisa_WebsiteCover.png"
-primary-embed: https://www.youtube.com/embed/GyT1wPQSER8
+primary-embed: https://player.vimeo.com/video/265011101
 info:
 - type: Image
   asset: "/uploads/MonaLisa_GIF4_loop.gif"
