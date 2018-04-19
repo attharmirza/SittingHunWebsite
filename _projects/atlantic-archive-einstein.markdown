@@ -1,6 +1,8 @@
 ---
 title: 'Atlantic Archive: Einstein'
 date: 2018-04-18 20:01:00 -04:00
+categories:
+- Animation
 cover-image: "/uploads/Einstein_Thumbnail.png"
 primary-asset: "/uploads/Einstein_Still.png"
 primary-embed: https://player.vimeo.com/video/265009675
