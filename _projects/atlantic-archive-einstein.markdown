@@ -6,12 +6,6 @@ primary-asset: "/uploads/Einstein_Still.png"
 primary-embed: https://player.vimeo.com/video/265009675
 info:
 - type: Image
-  asset: "/uploads/EinsteinArchive_GIF2_small.gif"
-  style: Float
-- type: Image
-  asset: 
-  style: Float
-- type: Image
   asset: 
   style: Float
 - type: Text
