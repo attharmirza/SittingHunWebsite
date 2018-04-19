@@ -45,7 +45,7 @@ info:
   style: Float
 ---
 
-The [**Atlantic Archive: Albert Einstein**](https://www.theatlantic.com/video/index/557987/einstein-atomic-war/) film was the fourth in a series by _The Atlantic_. Each animator took an article from the publisher's extensive 160 year old archive, articles that resonate today, and adapted it to an animation. I chose the article "Atomic War or Peace" by Albert Einstein from 1947. It struck me as eerily relevant due to the current administration's aggressive stance on  nuclear weapons. The animation grapples with this tension, just as Einstein grapples with the advent of the Cold War in his essay. It's continually moving downward like a falling bomb, but never shows one exploding into a mushroom cloud.
+The [**Atlantic Archive: Albert Einstein**](https://www.theatlantic.com/video/index/557987/einstein-atomic-war/) film was the fourth in a series by _The Atlantic_. Each animator took an article from the publisher's extensive 160 year old archive, articles that resonate today, and adapted it to an animation. I chose the article "Atomic War or Peace" by Albert Einstein from 1947. It struck me as eerily relevant due to the current aggressive stances on  nuclear weapons. The animation grapples with this tension, just as Einstein grapples with the advent of the Cold War in his essay. It's continually moving downward like a falling bomb, but never shows one exploding into a mushroom cloud.
 
 The project was an amazing experience for me because, in addition to my usual roles of pitching, scripting, animation and sound design, I also produced this video. This new role involved casting a narrator that worked remotely from, incidentally, across the Atlantic ocean. Pun intended! Although, is that technically a pun? I'm not sure.
 
