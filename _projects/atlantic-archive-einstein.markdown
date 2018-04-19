@@ -15,7 +15,10 @@ info:
   asset: "/uploads/ezgif-5-2d4e7c4b7a.gif"
   style: Float
 - type: Text
-  asset: 'For this animation, I tried to '
+  asset: For this animation, I tried to achieve a level of illustration I hadn't been
+    able to ever before. The challenge was imitating Italian Futurist painters from
+    the era. I was particularly taken with "The Strength of the Curve" by Tullio Crali,
+    but also the shattered, geometrically precise style of Futurism in general.
   style: None
 - type: Text
   asset: 'Below is a portion of the storyboard, it should give you an insight into
