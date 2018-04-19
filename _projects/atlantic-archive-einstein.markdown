@@ -15,8 +15,11 @@ info:
   asset: "/uploads/ezgif-5-2d4e7c4b7a.gif"
   style: Float
 - type: Text
-  asset: Below is a portion of the storyboard, so you can compare it to the final
-    animation. It should give you an insight into the detail of the planning process.
+  asset: 'For this animation, I tried to '
+  style: None
+- type: Text
+  asset: Below is a portion of the storyboard, it should give you an insight into
+    the detail of the planning process.
   style: None
 - type: Image
   asset: "/uploads/Storyboard_Page_1.png"
@@ -25,8 +28,10 @@ info:
   asset: "/uploads/Einstein_BTS_Storyboard.png"
   style: Float
 - type: Text
-  asset: The animation is designed so that as it progresses, a painting is assembled.
-    This means there's continuity between each element.
+  asset: 'The animation is designed so that as it progresses, a painting is assembled.
+    There''s continuity between each element, smoothing transitions and making the
+    whole thing slightly more difficult for me. You can see sections of the animation
+    stretched out across time below:'
   style: None
 - type: Image
   asset: "/uploads/Einstein_Painting2.png"
