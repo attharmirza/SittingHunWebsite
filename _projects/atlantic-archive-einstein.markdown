@@ -18,8 +18,8 @@ info:
   asset: 'For this animation, I tried to '
   style: None
 - type: Text
-  asset: Below is a portion of the storyboard, it should give you an insight into
-    the detail of the planning process.
+  asset: 'Below is a portion of the storyboard, it should give you an insight into
+    the detail of the planning process:'
   style: None
 - type: Image
   asset: "/uploads/Storyboard_Page_1.png"
