@@ -3,6 +3,7 @@ title: Juvenile Detention
 date: 2018-03-22 22:04:00 -04:00
 categories:
 - Animation
+position: 1
 description: I worked alongside developers and a documentary producer at The Atlantic
   and created their first virtual reality films with composited animation. The opportunity
   allowed me to travel into the field at a juvenile detention center, film with cutting-edge

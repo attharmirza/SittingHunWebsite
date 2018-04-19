@@ -3,7 +3,7 @@ title: You Are Here
 date: 2017-09-06 15:46:00 -04:00
 categories:
 - Animation
-position: 3
+position: 5
 description: 'You Are Here is a web series from The Atlantic that explores the science
   of everyday life. Science writers come on as hosts, and animated segments help illustrate
   their ideas. I had the privilege of working on a few episodes of this series, working

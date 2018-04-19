@@ -3,7 +3,7 @@ title: Mona Lisa
 date: 2017-10-06 13:13:00 -04:00
 categories:
 - Animation
-position: 1
+position: 3
 description: Mona Lisa's Smile was an animation produced as an accompaniment to a
   cover story for The Atlantic. The animation explores the science behind Leonardo
   Da Vinci's legendary painting.

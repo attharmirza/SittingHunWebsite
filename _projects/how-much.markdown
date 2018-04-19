@@ -3,7 +3,7 @@ title: How Much
 date: 2014-04-09 00:08:00 -04:00
 categories:
 - Animation
-position: 10
+position: 12
 description: How Much by Inscape is the official music video for Inscape's song of
   the same name. It was made entirely in Adobe After Effects, using Video Copilot's
   plugin "Element 3D." The video won first place at the University of Virginia's digital
