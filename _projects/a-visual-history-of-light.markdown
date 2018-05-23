@@ -9,6 +9,16 @@ description: A Visual History of Light was my contribution to a long running ser
   fusion.
 cover-image: "/uploads/VHLightThumb_Website.png"
 primary-embed: https://player.vimeo.com/video/270454241
+info:
+- type: 
+  asset: "/uploads/VHLightThumb_Website-b5a222.png"
+  style: Float
+- type: Image
+  asset: "/uploads/VHLightThumb_Website-fa1835.png"
+  style: 
+- type: Image
+  asset: "/uploads/VHLightThumb_Website-b07f70.png"
+  style: Float
 ---
 
 [*A Visual History of Light*](https://www.theatlantic.com/video/index/560585/visual-history-light/) was my contribution to a long running series by The Atlantic. It examines the major evolutions in humanity's efforts to manipulate light, from the first man-made fire to the modern use of 192 lasers to trigger hydrogen fusion.
