@@ -15,7 +15,7 @@ info:
   style: Float
 - type: Image
   asset: "/uploads/VHLightThumb_Website-fa1835.png"
-  style: 
+  style: Float
 - type: Image
   asset: "/uploads/VHLightThumb_Website-b07f70.png"
   style: Float
