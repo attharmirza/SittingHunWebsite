@@ -6,7 +6,7 @@ categories:
 description: A Visual History of Light was my contribution to a long running series
   by The Atlantic. It examines the major evolutions in humanity's efforts to manipulate
   light, from the first man-made fire to the modern use of 192 lasers to trigger hydrogen
-  fusion.
+  fusion. This video earned a Vimeo Staff Pick.
 cover-image: "/uploads/VHLightThumb_PortfolioThumb.png"
 primary-embed: https://player.vimeo.com/video/270454241
 info:
