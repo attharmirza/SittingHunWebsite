@@ -25,4 +25,4 @@ info:
 
 The project was an opportunity for growth and a large undertaking for me: it required a lot of 3D modeling and animation in a short amount of time, condensing 2 months of research into a 2 minute video, and realizing the deceptively simple, striking visual style. 
 
-The video earned a [**Vimeo Staff Pick**](https://vimeo.com/270454241) (my first!) and garnered over 30,000 views across Vimeo and YouTube.
+The video earned a [**Vimeo Staff Pick**](https://vimeo.com/270454241), my first!
