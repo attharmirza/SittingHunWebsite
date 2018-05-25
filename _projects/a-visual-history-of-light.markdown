@@ -16,6 +16,13 @@ info:
 - type: Image
   asset: "/uploads/VHLightThumb_Website-fa1835.png"
   style: Float
+- type: Text
+  asset: Each object shown in the video was fully modeled before rendering with the
+    heavily stylized and high contrast final effect.
+  style: Float
+- type: Image
+  asset: "/uploads/Fire_FullShading.png"
+  style: Float
 - type: Image
   asset: "/uploads/VHLightThumb_Website-b07f70.png"
   style: Float
