@@ -22,7 +22,7 @@ info:
     heavily stylized and high contrast final effect.
   style: Float
 - type: Image
-  asset: "/uploads/Fire_FullShading.png"
+  asset: "/uploads/Campfire_wFire3.png"
   style: Float
 - type: Image
   asset: "/uploads/VHLightThumb_Website-b07f70.png"
