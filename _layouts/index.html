@@ -10,7 +10,8 @@
       <div class="container">
         <div class="grid">
           <div class="grid-sizer"></div>
-          {% assign sorted_projects = site.projects | sort:"position" %} {% for project in sorted_projects %}
+          {% assign sorted_projects = site.projects | sort:"position" %}
+          {% for project in sorted_projects %}
           <a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}">
             <div class="grid-item">
               <div class="projectShadow">
