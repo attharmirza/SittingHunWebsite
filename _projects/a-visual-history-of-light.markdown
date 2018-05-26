@@ -3,7 +3,7 @@ title: A Visual History of Light
 date: 2018-05-23 14:26:00 -04:00
 categories:
 - Animation
-position: 2
+position: 0
 description: A Visual History of Light was my contribution to a long running series
   by The Atlantic. It examines the major evolutions in humanity's efforts to manipulate
   light, from the first man-made fire to the modern use of 192 lasers to trigger hydrogen
