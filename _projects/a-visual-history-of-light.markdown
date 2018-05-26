@@ -1,6 +1,6 @@
 ---
 title: A Visual History of Light
-date: 2018-05-23 14:26:00 -04:00
+date: 2018-05-23 18:26:00 +0000
 categories:
 - Animation
 description: A Visual History of Light was my contribution to a long running series
@@ -10,6 +10,13 @@ description: A Visual History of Light was my contribution to a long running ser
 cover-image: "/uploads/VHLightThumb_PortfolioThumb.png"
 primary-embed: https://player.vimeo.com/video/270454241
 info:
+- type: Image
+  asset: "/uploads/Storyboard_Export_1000.png"
+  style: Float
+- type: Text
+  asset: This animation went particularly smoothly because the hand drawn storyboard,
+    as seen above, is not far from the final look and feel of the short film.
+  style: None
 - type: Image
   asset: "/uploads/VHLightThumb_Website-b5a222.png"
   style: Float
@@ -26,6 +33,9 @@ info:
 - type: Image
   asset: "/uploads/VHLightThumb_Website-b07f70.png"
   style: Float
+position: ''
+primary-asset: ''
+layout: project
 ---
 
 [**A Visual History of Light**](https://www.theatlantic.com/video/index/560585/visual-history-light/) was my contribution to a long running series by The Atlantic. It examines the major evolutions in humanity's efforts to manipulate light, from the first man-made fire to the modern use of 192 lasers to trigger hydrogen fusion.
