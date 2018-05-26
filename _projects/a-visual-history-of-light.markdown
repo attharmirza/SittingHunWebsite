@@ -12,15 +12,15 @@ cover-image: "/uploads/VHLightThumb_PortfolioThumb.png"
 primary-embed: https://player.vimeo.com/video/270454241
 info:
 - type: Image
-  asset: "/uploads/VHLightThumb_Website-b5a222.png"
-  style: Float
-- type: Image
   asset: "/uploads/VHLightThumb_Website-fa1835.png"
   style: Float
 - type: Text
   asset: Each object shown in the video started as a frame from the storyboard. It
     was then fully modeled before rendering with the heavily stylized and high contrast
     final effect.
+  style: Float
+- type: Image
+  asset: "/uploads/CampfireDrawing.png"
   style: Float
 - type: Image
   asset: "/uploads/Campfire_wFire3.png"
