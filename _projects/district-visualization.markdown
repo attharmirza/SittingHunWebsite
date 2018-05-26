@@ -3,7 +3,7 @@ title: District Visualization
 date: 2018-02-05 21:16:00 -05:00
 categories:
 - Web
-position: 9
+position: 10
 description: A D3 visualization of congressional districts throughout US history.
   This was designed to show the effects of gerrymandering.
 cover-image: "/uploads/congressional-district-cover.png"

@@ -3,7 +3,7 @@ title: 2035 Hudson Big Six
 date: 2017-09-21 16:38:00 -04:00
 categories:
 - Design
-position: 2
+position: 3
 description: The 2035 Hudson Big Six was born out of a dusty American Cars catalog
   from Crest Line, which I found at the back of an old bookstore. It featured cars
   from the 1930s and 40s, so, of course, I immediately thought that these would make

@@ -3,7 +3,7 @@ title: My Workspace
 date: 2017-12-21 13:31:00 -05:00
 categories:
 - Animation
-position: 4
+position: 5
 description: My Workspace is a web series from The Atlantic exploring the environments
   groundbreaking artists inhabit, and how these workspaces influence the final piece.
 cover-image: "/uploads/Workspace_00039.png"
