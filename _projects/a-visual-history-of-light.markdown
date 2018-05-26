@@ -18,8 +18,9 @@ info:
   asset: "/uploads/VHLightThumb_Website-fa1835.png"
   style: Float
 - type: Text
-  asset: Each object shown in the video was fully modeled before rendering with the
-    heavily stylized and high contrast final effect.
+  asset: Each object shown in the video started as a frame from the storyboard. It
+    was then fully modeled before rendering with the heavily stylized and high contrast
+    final effect.
   style: Float
 - type: Image
   asset: "/uploads/Campfire_wFire3.png"
