@@ -1,0 +1,92 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: 
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: position
+  label: Position
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: 
+- name: cover-image
+  label: Cover image
+  type: text
+  hidden: false
+  default: 
+- name: primary-embed
+  label: Primary embed
+  type: text
+  hidden: false
+  default: 
+- name: info
+  label: Info
+  type: field_group_list
+  fields:
+  - name: type
+    label: Type
+    type: text
+    hidden: false
+    default: ''
+  - name: asset
+    label: Asset
+    type: text
+    hidden: false
+    default: ''
+  - name: style
+    label: Style
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - type: Image
+    asset: 
+    style: Left, Right, Float
+- name: primary-asset
+  label: Primary asset
+  type: text
+  hidden: false
+  default: 
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: project
+pages:
+- _projects/a-visual-history-of-light.markdown
+- _projects/atlantic-archive-einstein.markdown
+- _projects/juvenile-detention.markdown
+- _projects/district-visualization.markdown
+- _projects/the-mixtape-builder.markdown
+- _projects/my-workspace.markdown
+- _projects/mona-lisas-smile.markdown
+- _projects/2035-hudson-big-six.markdown
+- _projects/you-are-here.markdown
+- _projects/forbidden-greens.markdown
+- _projects/impossible-courage.markdown
+- _projects/material-studies.markdown
+- _projects/just-you-wait.markdown
+- _projects/8x10s-and-murals.markdown
+- _projects/vortex-design.markdown
+- _projects/red-fox.markdown
+- _projects/berlin-wall.markdown
+- _projects/how-much.markdown
