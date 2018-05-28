@@ -1,10 +1,11 @@
 <div class="menu">
   <div id="menuButton"></div>
   <div>
-    <h1 class="menuTitle">The Sitting Hun</h1></div>
+    <h1 class="menuTitle">The Sitting Hun</h1>
+  </div>
 
   <script>
-    $(document).ready(function() {
+    $(window).on('load', function() {
       var element = document.getElementById('menuButton');
       var openAnimation = '{{ site.url }}{{ site.baseurl }}/graphics/animations/menuButton-open.json';
       var closeAnimation = '{{ site.url }}{{ site.baseurl }}/graphics/animations/menuButton-close.json';
@@ -20,7 +21,7 @@
 
       anim.play();
       anim.addEventListener('enterFrame', function(currentFrame) {
-        if (currentFrame.currentTime > (anim.totalFrames - 1)) {
+        if (currentFrame.currentTime > (anim.totalFrames - 2)) {
           anim.pause();
         }
       });
@@ -30,7 +31,9 @@
           $('#menuButton').find('svg').remove();
           // $('.content').css('width', '80%').css('max-width', 'calc(100% - 200px)');
           // $('.content').addClass('content-mobile');
-          $('.content').animate({left: '200px'}, 200);
+          $('.content').animate({
+            left: '200px'
+          }, 200);
           // if ('{{ page.title }}' == 'Home') {
           //   if ($('.filter').hasClass('Web-active') == false || $('.filter').hasClass('Animation-active') == false || $('.filter').hasClass('Design-active') == false) {
           //     loadGrid();
@@ -58,7 +61,9 @@
           $('#menuButton').find('svg').remove();
           // $('.content').css('width', '100%').css('max-width', '100%');
           // $('.content').removeClass('content-mobile');
-          $('.content').animate({left: '0px'}, 200);
+          $('.content').animate({
+            left: '0px'
+          }, 200);
           // if ('{{ page.title }}' == 'Home') {
           //   loadGrid();
           // };

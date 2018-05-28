@@ -100,9 +100,14 @@
 
 #animationLoad {
   position: absolute;
+  z-index: 200;
   width: 80px;
   height: 80px;
   top: 50%;
-  left: 50%;
+  left: 60%;
   transform: translateX(-50%) translateY(-50%);
+
+  @media only screen and (max-width: $screen-small) {
+    left: 50%;
+  }
 }

@@ -3,27 +3,29 @@
 {% include info.html %}
 
 <body>
+  <div id="animationLoad">
+  </div>
+  <script>
+  $(window).on('load', function () {
+    var element = document.getElementById('animationLoad');
+    var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
+
+    var anim = lottie.loadAnimation({
+      container: element,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: animLoad
+    });
+
+    anim.play();
+  });
+  </script>
   <div class="wrapper">
     {% include navigation.html %}
     <div class="content">
       {% include menu.html %}
       <div class="container">
-        <div id="animationLoad">
-        </div>
-        <script>
-            var element = document.getElementById('animationLoad');
-            var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
-
-            var anim = lottie.loadAnimation({
-              container: element,
-              renderer: 'svg',
-              loop: true,
-              autoplay: true,
-              path: animLoad
-            });
-
-            anim.play();
-        </script>
         <div class="grid">
           <div class="grid-sizer"></div>
           {% assign sorted_projects = site.projects | sort:"position" %} {% for project in sorted_projects %}
@@ -85,8 +87,8 @@
     };
 
     $(document).ready(function() {
-      window.setTimeout(loadGrid, 1300);
-      // loadGrid();
+      // window.setTimeout(loadGrid, 1300);
+      loadGrid();
 
       if ($(window).width() > 900) {
         $('.project').plate({
