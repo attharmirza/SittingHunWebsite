@@ -30,6 +30,11 @@ html {
   overflow-y: auto;
   // transition: 0.2s;
 
+  // .textContent {
+  //   height: 100%;
+  //   overflow-y: auto;
+  // }
+
   @media only screen and (max-width: $screen-small) {
     width: 100%;
     max-width: 100%;

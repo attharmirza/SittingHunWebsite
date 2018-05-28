@@ -9,9 +9,27 @@
       {% include menu.html %}
       <div class="container">
         <div class="textCard">
-          <div class="textContent">
-            {{ content }}
-            <!-- <p></p> -->
+          <div class="formContainer">
+            <div class="textContent">
+              {{ content }}
+            </div>
+            <form action="/contact-success.html">
+              <p>
+                Name:<br /><br />
+                <input class="line" type="text" name="name" />
+              </p>
+              <p>
+                Email Address:<br /><br />
+                <input class="line" type="text" name="email" />
+              </p>
+              <p>
+                Message:<br /><br />
+                <textarea class="area" name="message"></textarea>
+              </p>
+              <p>
+                <input class="button" type="submit" />
+              </p>
+            </form>
           </div>
           <div class="textDate">
             <p>
@@ -40,10 +58,10 @@
 
       $('.textCover').css('background-image', randomImage());
 
-      $('.textContent').css('min-height', function() {
+      $('.formContainer').css('min-height', function() {
         console.log('hey there');
-        return $(window).height() - ($('.textDate').height() + $('.textCover').height() + 120);
-      })
+        return $(window).height() - ($('.textDate').height() + $('.textCover').height() + 115);
+      });
     });
   </script>
 </body>
