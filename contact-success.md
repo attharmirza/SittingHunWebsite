@@ -1,6 +1,6 @@
 ---
 title: Success
-date: 2018-05-27 12:26:00 -05:00
+date: 2018-05-27 13:26:00 -04:00
 description: Atthar Mirza is a web developer, animator, and designer. He loves interactive
   graphics and 3D modeling because they allow him to extract the images in his brain
   and bring them to life. Most recently, Atthar Mirza works at the Atlantic as a professional
@@ -9,3 +9,4 @@ description: Atthar Mirza is a web developer, animator, and designer. He loves i
   the Mayans were wrong because he was just getting started.
 layout: contact-success
 ---
+
