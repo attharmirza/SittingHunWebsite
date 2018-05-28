@@ -56,9 +56,28 @@
     };
 
     reelHeight();
-    $(window).resize(reelHeight);
 
     $('.textCover').css('background-image', randomImage());
+
+    var textHeight = function() {
+      $('.textContent').css('min-height', function() {
+        if ($('.menu').css('display') == 'block') {
+          console.log('friendos')
+          return $(window).height() - ($('.textDate').height() + $('.textCover').height() + $('.textReel').height() + $('.menu').height() + 150);
+        } else {
+          return $(window).height() - ($('.textDate').height() + $('.textCover').height() + $('.textReel').height() + 150);
+        }
+      })
+    };
+
+    textHeight();
+
+    var resize = function () {
+      reelHeight();
+      textHeight();
+    };
+
+    $(window).on('resize', resize);
   });
 </script>
 
