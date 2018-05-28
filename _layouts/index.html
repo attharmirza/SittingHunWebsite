@@ -8,6 +8,7 @@
     <div class="content">
       {% include menu.html %}
       <div class="container">
+        <div id="animationLoad"></div>
         <div class="grid">
           <div class="grid-sizer"></div>
           {% assign sorted_projects = site.projects | sort:"position" %}
@@ -46,7 +47,8 @@
 
     var loadGrid = function() {
       $('.grid').imagesLoaded(function() {
-        $('.grid').css('visibility', 'visible');
+        $('#animationLoad').remove();
+        $('.grid').css('display', 'block');
         loadIsotope();
         // contentHeight = $('.content').height();
         // wrapperHeight();
@@ -69,7 +71,20 @@
     };
 
     $(document).ready(function() {
-      loadGrid();
+      var element = document.getElementById('animationLoad');
+      var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
+
+      var anim = lottie.loadAnimation({
+        container: element,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: animLoad
+      });
+
+      anim.play();
+
+      window.setTimeout(loadGrid, 1300);
 
       if ($(window).width() > 900) {
         $('.project').plate({
