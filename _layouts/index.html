@@ -4,22 +4,23 @@
 
 <body>
   <div id="animationLoad">
+    <img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.gif" />
   </div>
   <script>
-  $(window).on('load', function () {
-    var element = document.getElementById('animationLoad');
-    var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
-
-    var anim = lottie.loadAnimation({
-      container: element,
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: animLoad
-    });
-
-    anim.play();
-  });
+    // $(window).on('load', function () {
+    //   var element = document.getElementById('animationLoad');
+    //   var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
+    //
+    //   var anim = lottie.loadAnimation({
+    //     container: element,
+    //     renderer: 'svg',
+    //     loop: true,
+    //     autoplay: true,
+    //     path: animLoad
+    //   });
+    //
+    //   anim.play();
+    // });
   </script>
   <div class="wrapper">
     {% include navigation.html %}
@@ -28,7 +29,8 @@
       <div class="container">
         <div class="grid">
           <div class="grid-sizer"></div>
-          {% assign sorted_projects = site.projects | sort:"position" %} {% for project in sorted_projects %}
+          {% assign sorted_projects = site.projects | sort:"position" %}
+          {% for project in sorted_projects %}
           <a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}">
             <div class="grid-item">
               <div class="projectShadow">
