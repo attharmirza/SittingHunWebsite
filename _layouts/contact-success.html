@@ -52,8 +52,12 @@
       anim.play();
 
       $('#animationSent').height(function() {
-        console.log('hey there');
-        return $(window).height() - ($('.textDate').height() + $('.textCover').height() + 115);
+        if ($('.menu').css('display') == 'block') {
+          console.log('friendos')
+          return $(window).height() - ($('.textDate').height() + $('.textCover').height() + $('.menu').height() + 115);
+        } else {
+          return $(window).height() - ($('.textDate').height() + $('.textCover').height() + 115);
+        }
       });
     });
   </script>
