@@ -9,21 +9,21 @@
       {% include menu.html %}
       <div class="container">
         <div id="animationLoad">
-          <script>
-              var element = document.getElementById('animationLoad');
-              var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
-
-              var anim = lottie.loadAnimation({
-                container: element,
-                renderer: 'svg',
-                loop: true,
-                autoplay: true,
-                path: animLoad
-              });
-
-              anim.play();
-          </script>
         </div>
+        <script>
+            var element = document.getElementById('animationLoad');
+            var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
+
+            var anim = lottie.loadAnimation({
+              container: element,
+              renderer: 'svg',
+              loop: true,
+              autoplay: true,
+              path: animLoad
+            });
+
+            anim.play();
+        </script>
         <div class="grid">
           <div class="grid-sizer"></div>
           {% assign sorted_projects = site.projects | sort:"position" %} {% for project in sorted_projects %}
