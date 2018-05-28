@@ -45,6 +45,21 @@
     //   });
     // };
 
+    $(window).on('load', function() {
+      var element = document.getElementById('animationLoad');
+      var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
+
+      var anim = lottie.loadAnimation({
+        container: element,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: animLoad
+      });
+
+      anim.play();
+    });
+
     var loadGrid = function() {
       $('.grid').imagesLoaded(function() {
         $('#animationLoad').remove();
@@ -71,19 +86,6 @@
     };
 
     $(document).ready(function() {
-      var element = document.getElementById('animationLoad');
-      var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
-
-      var anim = lottie.loadAnimation({
-        container: element,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        path: animLoad
-      });
-
-      anim.play();
-
       window.setTimeout(loadGrid, 1300);
 
       if ($(window).width() > 900) {
