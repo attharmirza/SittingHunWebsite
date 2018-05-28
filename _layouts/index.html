@@ -10,7 +10,6 @@
       <div class="container">
         <div id="animationLoad">
           <script>
-            $(window).on('load', function() {
               var element = document.getElementById('animationLoad');
               var animLoad = '{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.json';
 
@@ -23,7 +22,6 @@
               });
 
               anim.play();
-            });
           </script>
         </div>
         <div class="grid">
