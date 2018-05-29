@@ -31,8 +31,8 @@ info:
 layout: project
 ---
 
-[**A Visual History of Light**](https://www.theatlantic.com/video/index/560585/visual-history-light/) was my contribution to a long running series by The Atlantic. It examines the major evolutions in humanity's efforts to manipulate light, from the first man-made fire to the modern use of 192 lasers to trigger hydrogen fusion.
+[**A Visual History of Light**](https://www.theatlantic.com/video/index/560585/visual-history-light/) was my contribution to a long running series by *The Atlantic*. It examines the major evolutions in humanity's efforts to manipulate light, from the first man-made fire to the modern use of 192 lasers to trigger hydrogen fusion.
 
 The project was an opportunity for growth and a large undertaking for me: it required a lot of 3D modeling and animation in a short amount of time, condensing 2 months of research into a 2 minute video, and realizing the deceptively simple, striking visual style. 
 
-The video earned a [**Vimeo Staff Pick**](https://vimeo.com/270454241), my first!
+The video earned a [**Vimeo Staff Pick**](https://vimeo.com/270454241), my first! It has also garnered over 60,000 views across Vimeo and YouTube, and has been featured on [**The Curious Brain**](http://thecuriousbrain.com/?p=88146) and [**The Fool Dot**](https://www.fooldot.com/a-visual-history-of-light-by-the-atlantic/).
