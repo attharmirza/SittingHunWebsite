@@ -39,17 +39,29 @@
       $('.textCover').css('background-image', randomImage());
 
       var element = document.getElementById('animationSent');
-      var animSent = '{{ site.url }}{{ site.baseurl }}/graphics/animations/sent.json';
+      var animSent = '{{ site.url }}{{ site.baseurl }}/graphics/animations/sentComplete.json';
 
       var anim = lottie.loadAnimation({
         container: element,
         renderer: 'svg',
-        loop: true,
+        loop: false,
         autoplay: true,
         path: animSent
       });
 
       anim.play();
+      var i = 0;
+      anim.addEventListener('enterFrame', function(currentFrame) {
+        if (currentFrame.currentTime > 61 && i < 0) {
+          anim.goToAndPlay(1);
+          i = i + 1;
+          console.log(i);
+        } else if (currentFrame.currentTime > anim.totalFrames - 2) {
+          anim.pause();
+        } else {
+          anim.play();
+        };
+      });
 
       $('#animationSent').height(function() {
         if ($('.menu').css('display') == 'block') {

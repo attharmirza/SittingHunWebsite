@@ -1,5 +1,5 @@
 ---
-title: Success
+title: Thank You
 date: 2018-05-27 13:26:00 -04:00
 description: Atthar Mirza is a web developer, animator, and designer. He loves interactive
   graphics and 3D modeling because they allow him to extract the images in his brain
@@ -9,4 +9,3 @@ description: Atthar Mirza is a web developer, animator, and designer. He loves i
   the Mayans were wrong because he was just getting started.
 layout: contact-success
 ---
-
