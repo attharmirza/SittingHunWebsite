@@ -22,13 +22,13 @@ info:
     compositing techniques and fractal patterns (noise, voronoi textures, etc.).
   style: None
 - type: Image
-  asset: "/uploads/img1-a10645.png"
+  asset: "/uploads/Gold.gif"
   style: Float
 - type: Image
-  asset: "/uploads/img2-27bfc3.jpg"
+  asset: "/uploads/Rock.gif"
   style: Left
 - type: Image
-  asset: "/uploads/img3.jpg"
+  asset: "/uploads/Ice.gif"
   style: Right
 ---
 
