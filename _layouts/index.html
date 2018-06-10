@@ -37,7 +37,9 @@
                 <div class="project{% for item in project.categories %} {{ item }}{% endfor %}">
                   <div class="projectAwards">
                     {% for award in project.awards %}
+                    {% if award.path %}
                     <img src="{{ site.url }}{{ site.baseurl }}{{ award.path }}"/>
+                    {% endif %}
                     {% endfor %}
                   </div>
                   <img src="{{ site.url }}{{ site.baseurl }}{{ project.cover-image }}" />
