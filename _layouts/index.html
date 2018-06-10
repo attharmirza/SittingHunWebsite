@@ -35,6 +35,11 @@
             <div class="grid-item">
               <div class="projectShadow">
                 <div class="project{% for item in project.categories %} {{ item }}{% endfor %}">
+                  <div class="projectAwards">
+                    {% for award in project.awards %}
+                    <img src="{{ site.url }}{{ site.baseurl }}{{ award.path }}"/>
+                    {% endfor %}
+                  </div>
                   <img src="{{ site.url }}{{ site.baseurl }}{{ project.cover-image }}" />
                   <div class="projectImageTint"></div>
                   <div class="projectTitle">

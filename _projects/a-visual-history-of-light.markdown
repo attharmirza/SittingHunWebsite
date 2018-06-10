@@ -10,6 +10,9 @@ description: A Visual History of Light was my contribution to a long running ser
   fusion. This video earned a Vimeo Staff Pick.
 cover-image: "/uploads/VHLightThumb_PortfolioThumb.png"
 primary-embed: https://player.vimeo.com/video/270454241
+awards:
+- name: Staff Pick
+  path: "/graphics/awards/StaffPick.svg"
 info:
 - type: Image
   asset: "/uploads/VHLightThumb_Website-fa1835.png"
