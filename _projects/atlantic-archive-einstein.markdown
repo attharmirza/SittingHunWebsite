@@ -49,4 +49,4 @@ The [**Atlantic Archive: Albert Einstein**](https://www.theatlantic.com/video/in
 
 The project was an amazing experience for me because, in addition to my usual roles of pitching, scripting, animation and sound design, I also produced this video. This new role involved casting a narrator that worked remotely from, incidentally, across the Atlantic ocean. Pun intended! Although, is that technically a pun? I'm not sure.
 
-The film was picked up by Digg on the day of release, liked by a Vimeo staff member and accrued over 60,000 views across Facebook, YouTube and Vimeo. It was also "liked" by a Vimeo Staff Member.
+The film was picked up by [**Digg**](http://digg.com/video/einstein-warning) on the day of release, "liked" by a Vimeo staff member and accrued over 80,000 views across Facebook, YouTube and Vimeo.
