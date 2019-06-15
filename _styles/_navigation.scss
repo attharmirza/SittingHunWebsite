@@ -18,7 +18,7 @@
 .navPanel {
   // height: calc(100% - 120px);
   // min-height: 650px;
-  background: $color-white;
+  // background: $color-white;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -99,7 +99,7 @@
 .footer {
   min-width: 200px;
   // min-height: 120px;
-  background-color: $color-white;
+  // background-color: $color-white;
   // margin: 30px 0;
 
   p {
@@ -130,7 +130,7 @@
       }
 
       path {
-        fill: $color-black;
+        fill: $color-white;
       }
     }
   }
