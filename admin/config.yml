@@ -12,10 +12,13 @@ collections:
       preview: false
     label: "General"
     name: "configs"
-    file: "_config.yml"
-    fields:
-      - {label: Site Title, name: title, widget: string, default:}
-      - {label: Site Description, name: description, widget: text, default:}
+    files:
+      - label: "Site Paramters"
+        name: "_config"
+        file: "_config.yml"
+        fields:
+          - {label: Site Title, name: title, widget: string, default:}
+          - {label: Site Description, name: description, widget: text, default:}
 
   - editor:
       preview: false
@@ -23,10 +26,10 @@ collections:
     label: "Pages"
     folder: ""
     fields:
-      - {label: Title, title: title, widget: string, default: Other}
-      - {label: Layout, title: layour, widget: string, default: default}
-      - {label: Date, title: date, widget: date, default:}
-      - {label: Description, title: description, widget: text, default: The professional portfolio of animator and web developer Atthar Mirza.}
+      - {label: Title, name: title, widget: string, default: Other}
+      - {label: Layout, name: layour, widget: string, default: default}
+      - {label: Date, name: date, widget: date, default:}
+      - {label: Description, name: description, widget: text, default: The professional portfolio of animator and web developer Atthar Mirza.}
 
   - editor:
       preview: false
