@@ -13,7 +13,7 @@ cover-image: "/uploads/Screen%20Shot%202018-02-11%20at%2011.53.13%20PM.png"
 primary-embed: https://player.vimeo.com/video/135935226?title=0&byline=0&portrait=0
 awards:
 - name: Virginia Student Film Festival
-  path: "/graphics/awards/VirginiaStudentFilmFest.svg"
+  path: "/uploads/VirginiaStudentFilmFest.svg"
 info:
 - type: Image
   asset: "/uploads/img3-6ec27d.png"

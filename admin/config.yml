@@ -1,15 +1,59 @@
 backend:
   name: git-gateway
   branch: master
+
 media_folder: "_uploads"
 public_folder: "uploads"
+
+logo_url: https://www.thesittinghun.com/graphics/logo.svg
+
 collections:
-  - name: ""
+  - editor:
+      preview: false
+    label: "General"
+    name: "configs"
+    file: "_config.yml"
+    fields:
+      - {label: Site Title, name: title, widget: string, default:}
+      - {label: Site Description, name: description, widget: text, default:}
+
+  - editor:
+      preview: false
+    name: "pages"
     label: "Pages"
     folder: ""
-    create: true
-    slug: ""
     fields:
-      - {label: "Title", name: "title", widget: "string", default: ""}
-      - {label: "Layout", name: "layout", widget: "string", default: "default"}
-      - {label: "Description", name: "description", widget: "text", default: ""}
+      - {label: Title, title: title, widget: string, default: Other}
+      - {label: Layout, title: layour, widget: string, default: default}
+      - {label: Date, title: date, widget: date, default:}
+      - {label: Description, title: description, widget: text, default: The professional portfolio of animator and web developer Atthar Mirza.}
+
+  - editor:
+      preview: false
+    name: "projects"
+    label: "Projects"
+    folder: "_projects"
+    create: true
+    slug: "{{slug}}"
+    extension: "markdown"
+    fields:
+      - {label: Layout, name: layout, widget: hidden, default: project}
+      - {label: Title, name: title, widget: string, default: }
+      - {label: Position, name: position, widget: number, default: , valueType: int}
+      - {label: Date, name: date, widget: date, default: }
+      - {label: Description, name: description, widget: text, default: }
+      - {label: Cover, name: cover-image, widget: image, default: }
+      - label: "Awards"
+        name: "awards"
+        widget: "list"
+        fields:
+          - {label: Name, name: name, widget: string, default: }
+          - {label: Image, name: path, widget: image, default: }
+      - {label: Content, name: body, widget: markdown, default: Add the overall description of the project here.}
+      - label: "Info"
+        name: "info"
+        widget: "list"
+        fields:
+          - {label: Type, name: type, widget: string, default: }
+          - {label: Asset, name: asset, widget: string, default: }
+          - {label: Style, name: style, widget: hidden, default: Float}

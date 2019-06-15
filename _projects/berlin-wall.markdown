@@ -13,7 +13,7 @@ cover-image: "/uploads/img1-6975a5.png"
 primary-embed: https://player.vimeo.com/video/110118821?title=0&byline=0&portrait=0
 awards:
 - name: Fall of the Wall
-  path: "/graphics/awards/FallOfTheWall.svg"
+  path: "/uploads/FallOfTheWall.svg"
 info:
 - type: Image
   asset: "/uploads/img2.png"

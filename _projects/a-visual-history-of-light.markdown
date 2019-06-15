@@ -12,7 +12,7 @@ cover-image: "/uploads/VHLightThumb_PortfolioThumb.png"
 primary-embed: https://player.vimeo.com/video/270454241
 awards:
 - name: Staff Pick
-  path: "/graphics/awards/StaffPick.svg"
+  path: "/uploads/StaffPick.svg"
 info:
 - type: Image
   asset: "/uploads/VHLightThumb_Website-fa1835.png"

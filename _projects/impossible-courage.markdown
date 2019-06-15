@@ -15,9 +15,9 @@ cover-image: "/uploads/Screen%20Shot%202018-03-02%20at%201.39.42%20AM.png"
 primary-embed: https://player.vimeo.com/video/211130315?color=d2d2d2&title=0&byline=0&portrait=0
 awards:
 - name: Virginia Film Festival
-  path: "/graphics/awards/VirginiaFilmFestival.svg"
+  path: "/uploads/VirginiaFilmFestival.svg"
 - name: iLab Grant
-  path: "/graphics/awards/iLabGrant.svg"
+  path: "/uploads/iLabGrant.svg"
 info:
 - type: Image
   asset: "/uploads/impossiblecourage_img5.png"
