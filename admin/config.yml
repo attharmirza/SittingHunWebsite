@@ -1,14 +1,15 @@
 backend:
   name: git-gateway
-  branch: production
-
+  branch: master
 media_folder: "_uploads"
 public_folder: "uploads"
-
 collections:
   - name: ""
-  - label: "General"
-  - folder: ""
-  - create: true
-  - fields:
-    - {label: "Layout", name: "layout", widget: "string", default: "default"}
+    label: "Pages"
+    folder: ""
+    create: true
+    slug: ""
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: ""}
+      - {label: "Layout", name: "layout", widget: "string", default: "default"}
+      - {label: "Description", name: "description", widget: "text", default: ""}
