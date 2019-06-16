@@ -10,10 +10,10 @@ logo_url: https://www.thesittinghun.com/graphics/logo.svg
 collections:
   - editor:
       preview: false
-    label: "General"
     name: "configs"
+    label: "General"
     files:
-      - label: "Site Paramters"
+      - label: "Site Parameters"
         name: "_config"
         file: "_config.yml"
         fields:
@@ -24,7 +24,7 @@ collections:
       preview: false
     name: "pages"
     label: "Pages"
-    folder: ""
+    folder: "/"
     fields:
       - {label: Title, name: title, widget: string, default: Other}
       - {label: Layout, name: layour, widget: string, default: default}
