@@ -16,13 +16,15 @@ info:
   asset: "/uploads/ezgif-5-2d4e7c4b7a.gif"
   style: Float
 - type: Text
-  asset: For this animation, I tried to achieve a level of illustration I hadn't been
+  asset:
+  text: For this animation, I tried to achieve a level of illustration I hadn't been
     able to ever before. The challenge was imitating Italian Futurist painters from
     the era. I was particularly taken with "The Strength of the Curve" by Tullio Crali,
     but also the shattered, geometrically precise style of Futurism in general.
   style: None
 - type: Text
-  asset: 'Below is a portion of the storyboard, it should give you an insight into
+  asset:
+  text: 'Below is a portion of the storyboard, it should give you an insight into
     the detail of the planning process:'
   style: None
 - type: Image
@@ -32,7 +34,8 @@ info:
   asset: "/uploads/Einstein_BTS_Storyboard.png"
   style: Float
 - type: Text
-  asset: 'The animation is designed so that as it progresses, a painting is assembled.
+  asset:
+  text: 'The animation is designed so that as it progresses, a painting is assembled.
     There''s continuity between each element, smoothing transitions and making the
     whole thing slightly more difficult for me. You can see sections of the animation
     stretched out across time below:'

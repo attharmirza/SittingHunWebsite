@@ -22,7 +22,8 @@ info:
   asset: "/uploads/img2-91ce75.png"
   style: Float
 - type: Text
-  asset: I also designed the album art for the project, which was to symbolize the
+  asset:
+  text: I also designed the album art for the project, which was to symbolize the
     ultimately unfulfilling nature of material things.
   style: None
 - type: Image

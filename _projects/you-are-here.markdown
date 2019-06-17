@@ -19,4 +19,4 @@ info:
 
 [**You Are Here**](https://www.theatlantic.com/video/series/you-are-here/) is a web series from *The Atlantic* that explores the science of everyday life. Science writers come on as hosts, and animated segments help illustrate their ideas.
 
-I had the privilege of working on a few episodes of this series, working with the writers to animate everything from futuristic cities to cars with chicken on them, congressional districts, and Norwegian soap factory workers. 
+I had the privilege of working on a few episodes of this series, working with the writers to animate everything from futuristic cities to cars with chicken on them, congressional districts, and Norwegian soap factory workers.

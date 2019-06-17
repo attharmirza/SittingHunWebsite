@@ -24,14 +24,15 @@ info:
   asset: "/uploads/2035HudsonBigSix_Engine.png"
   style: Float
 - type: Text
-  asset: 'And it comes in blue! Take a look:'
-  style: 
+  asset:
+  text: 'And it comes in blue! Take a look:'
+  style:
 - type: Image
   asset: "/uploads/1935HudsonBigSixRacer_Poster_Graphics-a7d946.png"
-  style: 
+  style:
 - type: Image
   asset: "/uploads/1935HudsonBigSix_Master_CC.png"
-  style: 
+  style:
 ---
 
 The **2035 Hudson Big Six** was born out of a dusty "American Cars" catalog from Crest Line, which I found at the back of an old bookstore. It featured cars from the 1930s and 40s, so, of course, I immediately thought: these would make great hovercar concepts!

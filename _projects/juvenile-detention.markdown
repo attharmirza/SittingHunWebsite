@@ -21,12 +21,14 @@ info:
   asset: "/uploads/Screen%20Shot%202018-02-27%20at%2010.30.44%20PM%20(2).png"
   style: Float
 - type: Text
-  asset: A lot of the challenge around this project involved paving new ground. Nobody
+  asset:
+  text: A lot of the challenge around this project involved paving new ground. Nobody
     around me had ever done anything like this before, so I had to learn and innovate
     as it developed.
   style: None
 - type: Text
-  asset: The project involved side-by-side equirectangular footage stitched from two
+  asset:
+  text: The project involved side-by-side equirectangular footage stitched from two
     separate videos, as seen below. To composite animated characters into these environments,
     I recreated them and the VR camera in Blender and used multiple render passes
     to composite everything.

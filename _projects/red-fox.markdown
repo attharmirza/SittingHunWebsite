@@ -24,9 +24,10 @@ info:
   asset: "/uploads/3_FoxAndStage_small.png"
   style: Float
 - type: Text
-  asset: 'I also made an elk for fun, after seeing Thranduil''s elk in The Hobbit.
+  asset:
+  text: 'I also made an elk for fun, after seeing Thranduil''s elk in The Hobbit.
     Mine has modest antlers, though:'
-  style: 
+  style:
 - type: Image
   asset: "/uploads/Elk2.png"
   style: Float

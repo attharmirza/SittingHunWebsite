@@ -15,7 +15,8 @@ info:
   asset: "/uploads/Pillars.png"
   style: Float
 - type: Text
-  asset: These scenes were built from procedural material tests, shown below. The
+  asset:
+  text: These scenes were built from procedural material tests, shown below. The
     tests were created using the cycles render engine in Blender 2.76. The goal was
     to approach hyper realism using only node-based procedural texturing. The renders
     use only 3 tiled image textures, everything else was constructed with various

@@ -36,6 +36,7 @@ defaults:
     info:
     - type: Image
       asset:
+      text:
       style: Left, Right, Float
 description: The brand and portfolio of Atthar Mirza & Company.
 email: thesittinghun@gmail.com

@@ -18,7 +18,8 @@ info:
   asset: "/uploads/VHLightThumb_Website-fa1835.png"
   style: Float
 - type: Text
-  asset: Each object shown in the video started as a frame from the storyboard. It
+  asset:
+  text: Each object shown in the video started as a frame from the storyboard. It
     was then fully modeled before rendering with the heavily stylized and high contrast
     final effect.
   style: Float
