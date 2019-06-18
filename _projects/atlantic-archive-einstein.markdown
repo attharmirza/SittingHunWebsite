@@ -3,7 +3,7 @@ title: 'Atlantic Archive: Einstein'
 date: 2018-04-18 20:01:00 -04:00
 categories:
 - Animation
-position: 1
+position: 18
 description: 'The Atlantic Archive: Albert Einstein film was the fourth in a series
   by The Atlantic. Each animator took an article from the publisher''s extensive 160
   year old archive, articles that resonate today, and adapted it to an animation.
