@@ -26,7 +26,11 @@
   padding: 5px;
   border-radius: 5px;
   box-shadow: $shadow-light;
-  background-color: $color-white;
+  background-color: $color-dark;
+
+  img {
+    width: 100%;
+  }
 
   &:active {
     box-shadow: $shadow-pressed;

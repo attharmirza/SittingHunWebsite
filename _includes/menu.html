@@ -1,10 +1,41 @@
 <div class="menu">
-  <div id="menuButton"></div>
+  <div id="menuButton">
+    <img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen-Dark.gif"></img>
+  </div>
   <div>
     <h1 class="menuTitle">The Sitting Hun</h1>
   </div>
 
   <script>
+    $(window).on('load', function() {
+      var open = false;
+      $('#menuButton').click(function() {
+        if (open == false) {
+          $('.content').animate({
+            left: '200px'
+          }, 200);
+
+          $('#menuButton img').remove();
+          $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonClose-Dark.gif"></img>')
+
+          open = true;
+        } else {
+          $('.content').animate({
+            left: '0px'
+          }, 200);
+
+          $('#menuButton img').remove();
+          $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen-Dark.gif"></img>')
+
+          open = false;
+        }
+      });
+
+    });
+  </script>
+
+  <!-- The Lottie/Boydmovin Version of the Menu Animation: -->
+  <!-- <script>
     $(window).on('load', function() {
       var element = document.getElementById('menuButton');
       var openAnimation = '{{ site.url }}{{ site.baseurl }}/graphics/animations/menuButton-open.json';
@@ -89,5 +120,5 @@
 
       // $('#menuButton').trigger('click');
     });
-  </script>
+  </script> -->
 </div>
