@@ -53,6 +53,22 @@
           </a>
           {% endfor %}
         </div>
+
+        {% if paginator.total_pages > 1 %}
+        <div class="pageRack">
+          {% if paginator.previous_page %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ paginator.previous_page_path }}">Last Page</a>
+          {% endif %}
+
+          {% if paginator.previous_page and paginator.next_page %}
+          <p> | </p>
+          {% endif %}
+
+          {% if paginator.next_page %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ paginator.next_page_path }}">Next Page</a>
+          {% endif %}
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>
