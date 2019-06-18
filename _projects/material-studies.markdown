@@ -22,14 +22,14 @@ info:
     use only 3 tiled image textures, everything else was constructed with various
     compositing techniques and fractal patterns (noise, voronoi textures, etc.).
   style: None
-- type: Image
-  asset: "/uploads/Gold.gif"
+- type: Video
+  asset: "/uploads/Gold-Wide.mp4"
   style: Float
-- type: Image
-  asset: "/uploads/Rock.gif"
+- type: Video
+  asset: "/uploads/Rock-Wide.mp4"
   style: Left
-- type: Image
-  asset: "/uploads/Ice.gif"
+- type: Video
+  asset: "/uploads/Ice-Wide.mp4"
   style: Right
 ---
 

@@ -43,6 +43,10 @@
           <p class="secondaryText">
             {{ item.text }}
           </p>
+          {% elsif item.type == 'Video' %}
+          <div class ="secondaryVideo {{ item.style }}">
+            <video src="{{ site.url }}{{ site.basurl }}{{ item.asset }}" autoplay loop></video>
+          </div>
           {% endif %}
         </div>
         {% endfor %}
@@ -94,7 +98,20 @@
         }
       };
 
+      var zoomVideo = function() {
+        console.log('ba-da-bing');
+        if ($(this).hasClass('secondaryVideo-zoomed') == false) {
+          $(this).addClass('secondaryVideo-zoomed');
+          // zoomed = true;
+        } else {
+          $(this).removeClass('secondaryVideo-zoomed');
+          // zoomed = false;
+        }
+      };
+
       $('.secondaryImage').click(zoomImage);
+
+      $('.secondaryVideo').click(zoomVideo);
 
       $('.content').find('a').attr('target', '_blank');
     });

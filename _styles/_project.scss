@@ -44,7 +44,7 @@
   }
 }
 
-.secondaryImage {
+.secondaryImage, .secondaryVideo {
   position: relative;
   width: calc(100% - 40px);
   max-width: 500px;
@@ -72,9 +72,13 @@
   img {
     width: 100%;
   }
+
+  video {
+    width: 100%;
+  }
 }
 
-.secondaryImage-zoomed {
+.secondaryImage-zoomed, .secondaryVideo-zoomed {
   width: calc(100% - 40px);
   max-width: inherit;
   // transition: 0.1s;
