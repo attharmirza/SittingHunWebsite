@@ -42,6 +42,7 @@
 }
 
 .filter {
+  font: $font-regular;
   display: none;
   transition: 0.1s;
   &:hover {
@@ -60,11 +61,11 @@
 }
 
 .Web-active {
-  background: $color-white;
-  box-shadow: inset 0 0 0 2px $color-purple;
-  color: $color-purple;
+  background: $color-dark;
+  box-shadow: inset 0 0 0 2px $color-pink;
+  color: $color-pink;
   &:hover {
-    color: $color-purple;
+    color: $color-pink;
   }
 }
 
@@ -74,11 +75,11 @@
 }
 
 .Animation-active {
-  background: $color-white;
-  box-shadow: inset 0 0 0 2px $color-orange;
-  color: $color-orange;
+  background: $color-dark;
+  box-shadow: inset 0 0 0 2px $color-yellow;
+  color: $color-yellow;
   &:hover {
-    color: $color-orange;
+    color: $color-yellow;
   }
 }
 
@@ -88,7 +89,7 @@
 }
 
 .Design-active {
-  background: $color-white;
+  background: $color-dark;
   box-shadow: inset 0 0 0 2px $color-green;
   color: $color-green;
   &:hover {
