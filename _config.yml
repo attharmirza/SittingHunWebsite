@@ -38,6 +38,9 @@ defaults:
       asset:
       text:
       style: Left, Right, Float
+pagination:
+  enabled: true
+  debug: true
 description: The brand and portfolio of Atthar Mirza & Company.
 email: thesittinghun@gmail.com
 baseurl:
@@ -46,3 +49,5 @@ github_username: attharmirza
 sass:
   sass_dir: _styles
   style: compressed
+plugins:
+  - jekyll-paginate-v2
