@@ -1,0 +1,18 @@
+<div id="switchContainer">
+</div>
+
+<script>
+  $(document).ready(function() {
+    var element = document.getElementById('switchContainer');
+    var animPath = '{{ site.url }}{{ site.baseurl }}/graphics/animations/switch.json';
+
+    var anim = lottie.loadAnimation({
+      container: element,
+      renderer: 'svg',
+      loop: false,
+      autoplay: true,
+      path: animPath
+    });
+
+  });
+</script>
