@@ -4,7 +4,7 @@
 
 <body>
   <div id="animationLoad">
-    <img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/loading-dark.gif" />
+    <img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/loading-gradient-dark.gif" />
   </div>
   <script>
     // $(window).on('load', function () {
@@ -54,10 +54,18 @@
           {% endfor %}
         </div>
 
-        {% if paginator.total_pages > 1 %}
+        <!-- <div class="page-load-status">
+          <img class="infinite-scroll-request" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/loading-gradient-dark.gif" />
+        </div> -->
+
         <div class="pageRack">
+          <img class="view-more-button" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/showMore-dark.gif" />
+        </div>
+
+        {% if paginator.total_pages > 1 %}
+        <div class="pageRack" style="display: none; visibility: hidden">
           {% if paginator.previous_page %}
-          <a href="{{ site.url }}{{ site.baseurl }}{{ paginator.previous_page_path }}">Last Page</a>
+          <a class="pageButtonLast" href="{{ site.url }}{{ site.baseurl }}{{ paginator.previous_page_path }}">Last Page</a>
           {% endif %}
 
           {% if paginator.previous_page and paginator.next_page %}
@@ -65,7 +73,7 @@
           {% endif %}
 
           {% if paginator.next_page %}
-          <a href="{{ site.url }}{{ site.baseurl }}{{ paginator.next_page_path }}">Next Page</a>
+          <a class="pageButtonNext" href="{{ site.url }}{{ site.baseurl }}{{ paginator.next_page_path }}">Next Page</a>
           {% endif %}
         </div>
         {% endif %}
@@ -76,6 +84,7 @@
   <script src="{{ site.url }}{{ site.baseurl }}/scripts/isotope.min.js" type="text/javascript"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/scripts/imagesloaded.min.js" type="text/javascript"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/scripts/jquery.plate.js" type="text/javascript"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/scripts/infinite-scroll.min.js" type="text/javascript"></script>
   <script>
     // var contentHeight;
     //
@@ -85,28 +94,26 @@
     //   });
     // };
 
+    var isotope = $('.grid').isotope({
+      itemSelector: '.grid-item',
+      masonry: {
+        columnWidth: '.grid-sizer',
+        gutter: 30
+      },
+      percentPosition: true,
+      transitionDuration: 150,
+      filter: function() {
+        return $(this).find('.project').hasClass('project');
+      }
+    });
+
     var loadGrid = function() {
       $('.grid').imagesLoaded(function() {
         $('#animationLoad').remove();
         $('.grid').css('display', 'block');
-        loadIsotope();
+        isotope.isotope();
         // contentHeight = $('.content').height();
         // wrapperHeight();
-      });
-    };
-
-    var loadIsotope = function() {
-      $('.grid').isotope({
-        itemSelector: '.grid-item',
-        masonry: {
-          columnWidth: '.grid-sizer',
-          gutter: 30
-        },
-        percentPosition: true,
-        transitionDuration: 150,
-        filter: function() {
-          return $(this).find('.project').hasClass('project');
-        }
       });
     };
 
@@ -127,8 +134,21 @@
           maxRotation: 8
         });
       };
+
+      var isotopeData = isotope.data('isotope');
+
+      $('.grid').infiniteScroll({
+        // options
+        path: '.pageButtonNext',
+        append: '.grid-item',
+        outlayer: isotopeData,
+        history: false,
+        button: '.view-more-button'
+      });
     });
   </script>
+
+
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
