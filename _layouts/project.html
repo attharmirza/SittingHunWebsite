@@ -50,15 +50,15 @@
           {% endif %}
         </div>
         {% endfor %}
-        <div class="textDate">
-          <p>
-            {{ page.date | date: "%m.%d.%Y" }}
-          </p>
-        </div>
-        <!-- <div class="tertiaryAsset" style="background-image: url({{ site.url }}{{ site.baseurl }}{{ page.primary-asset }})"> -->
-        <div class="tertiaryAsset">
-          <div class="tertiaryGradient{% for item in page.categories %}-{{ item }}{% endfor %}">
-          </div>
+      </div>
+      <div class="textDate">
+        <p>
+          {{ page.date | date: "%m.%d.%Y" }}
+        </p>
+      </div>
+      <!-- <div class="tertiaryAsset" style="background-image: url({{ site.url }}{{ site.baseurl }}{{ page.primary-asset }})"> -->
+      <div class="tertiaryAsset">
+        <div class="tertiaryGradient{% for item in page.categories %}-{{ item }}{% endfor %}">
         </div>
       </div>
     </div>

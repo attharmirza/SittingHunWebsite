@@ -31,7 +31,7 @@
   width: calc(100% - 40px);
   // max-width: 1000px;
   margin: 30px auto;
-  height: 100px;
+  height: 80px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: $shadow-light-inset;
@@ -43,5 +43,5 @@
 .textGradient {
   height: 100%;
   width: 100%;
-  background: $gradient-red-faded;
+  background: $gradient-red;
 }

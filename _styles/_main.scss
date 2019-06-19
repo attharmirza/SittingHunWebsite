@@ -58,6 +58,7 @@ html {
 
 .container {
   width: 100%;
+  min-height: calc(100vh - 236px);
 
   p {
     max-width: 500px;

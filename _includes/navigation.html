@@ -80,6 +80,21 @@
       $('.filter').show();
     };
 
+    var loadIsotope = function () {
+      $('.grid').isotope({
+        itemSelector: '.grid-item',
+        masonry: {
+          columnWidth: '.grid-sizer',
+          gutter: 30
+        },
+        percentPosition: true,
+        transitionDuration: 150,
+        filter: function() {
+          return $(this).find('.project').hasClass('project');
+        }
+      });
+    };
+
     $('.Web-filter').click(function() {
       // $('.filter').removeClass('Web-active');
       $('.filter').removeClass('Animation-active');

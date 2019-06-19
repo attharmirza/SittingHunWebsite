@@ -132,16 +132,12 @@
   img {
     width: 50px;
     height: 50px;
-    margin: 25px 0;
+    margin: 15px 0;
 
     &:hover {
       cursor: pointer;
     }
   }
-}
-
-.page-load-status {
-  visibility: hidden;
 }
 
 // Loading Animation Styling
