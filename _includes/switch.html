@@ -2,7 +2,42 @@
 </div>
 
 <script>
+  // set cookie methods
+
+  var setCookieGlobal = function (cname, cvalue) {
+    document.cookie = cname + "=" + cvalue + "; expires=Tuesday, 01-Jan-2069 03:23:47 GMT+0000; path=/;"
+  };
+
+  var getCookieGlobal = function (cname) {
+    var cookies = document.cookie.split('; ');
+    var cookieValue;
+
+    // console.log(cookies);
+
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i];
+
+      if (cookie.indexOf(cname) == 0) {
+        cookieValue = cookie.substring(cname.length + 1, cookie.length);
+        // console.log(cookieValue);
+        return cookieValue;
+      }
+    }
+  };
+
+  // check for darkmode
+
+  var checkDarkMode = function() {
+    if (getCookieGlobal('darkmode') == "true") {
+      return true;
+    } else {
+      return false;
+    };
+  };
+
   $(document).ready(function() {
+    // use darkmode switch to set darkmode cookie value
+
     var element = document.getElementById('switchContainer');
     var animPath = '{{ site.url }}{{ site.baseurl }}/graphics/animations/switch.json';
 
@@ -10,8 +45,39 @@
       container: element,
       renderer: 'svg',
       loop: false,
-      autoplay: true,
+      autoplay: false,
       path: animPath
+    });
+
+    anim.setSpeed(2)
+
+    var switchDarkMode_Check = function() {
+      if (checkDarkMode() == true) {
+        setCookieGlobal('darkmode', 'true');
+        anim.goToAndStop(1, true);
+      } else {
+        setCookieGlobal('darkmode', 'false');
+        anim.goToAndStop(19, true);
+      };
+    };
+
+    var switchDarkMode_Flip = function() {
+      if (checkDarkMode() == false) {
+        setCookieGlobal('darkmode', 'true');
+        anim.setDirection(-1);
+        anim.play();
+      } else {
+        setCookieGlobal('darkmode', 'false');
+        anim.setDirection(1);
+        anim.play();
+      };
+    };
+
+    switchDarkMode_Check();
+
+    $('#switchContainer').click(function () {
+      switchDarkMode_Flip();
+      console.log("darkmode is " + getCookieGlobal('darkmode'));
     });
 
   });
