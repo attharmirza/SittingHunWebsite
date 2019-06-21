@@ -144,12 +144,16 @@
     }
   }
 
-  .view-more-button-dark {
+  .view-more-button {
     display: inline-block;
-  }
 
-  .view-more-button-light {
-    display: none;
+    .view-more-button-dark {
+      display: inline-block;
+    }
+
+    .view-more-button-light {
+      display: none;
+    }
   }
 }
 

@@ -55,7 +55,7 @@
           {% endfor %}
         </div>
 
-        <div class="pageRack"></div>
+        <div class="pageRack"><div class="view-more-button"></div></div>
 
         {% if paginator.total_pages > 1 %}
         <div class="pageRack" style="display: none; visibility: hidden">
@@ -103,8 +103,8 @@
     };
 
     $('.grid').imagesLoaded(function () {
-      $('.pageRack').append('<img class="view-more-button-dark" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/showMore-dark.gif" />');
-      $('.pageRack').append('<img class="view-more-button-light" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/showMore-light.gif" />');
+      $('.view-more-button').append('<img class="view-more-button-dark" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/showMore-dark.gif" />');
+      $('.view-more-button').append('<img class="view-more-button-light" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/showMore-light.gif" />');
     })
 
     $(document).ready(function() {
