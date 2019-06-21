@@ -37,7 +37,8 @@ body.light {
     box-shadow: $shadow-inset-bright;
   }
 
-  .icons .icon {
+  .footer .icons .icon {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 1) inset;
     &:hover {
       background-color: $color-red;
 
