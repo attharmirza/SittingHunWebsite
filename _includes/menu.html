@@ -1,7 +1,7 @@
 <div class="menu">
   <div id="menuButton">
-      <img class="menuButton-dark" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen-Dark.gif"></img>
-      <img class="menuButton-light" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen.gif"></img>
+      <img class="menuButton-dark" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonClose-Dark.gif"></img>
+      <img class="menuButton-light" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonClose.gif"></img>
   </div>
   <div>
     <h1 class="menuTitle">The Sitting Hun</h1>
@@ -19,9 +19,9 @@
           $('#menuButton img').remove();
 
           if (checkDarkMode()) {
-            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonClose-Dark.gif"></img>')
+            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen-Dark.gif"></img>')
           } else {
-            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonClose.gif"></img>')
+            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen.gif"></img>')
           }
 
           open = true;
@@ -33,13 +33,22 @@
           $('#menuButton img').remove();
 
           if (checkDarkMode()) {
-            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen-Dark.gif"></img>')
+            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonClose-Dark.gif"></img>')
           } else {
-            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen.gif"></img>')
+            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonClose.gif"></img>')
           }
 
           open = false;
         }
+
+        $('#switchContainer').click(function () {
+          $('#menuButton img').remove();
+          if (checkDarkMode()) {
+            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen-Dark.gif"></img>');
+          } else {
+            $('#menuButton').append('<img src="{{ site.url }}{{ site.baseurl }}/graphics/animations/MenuButtonOpen.gif"></img>')
+          }
+        });
       });
 
     });
