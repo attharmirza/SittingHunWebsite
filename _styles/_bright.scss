@@ -1,0 +1,32 @@
+body.light {
+  background-color: $color-white;
+
+  a,
+  div,
+  p {
+    color: $color-black;
+
+    .filter {
+      color: $color-white;
+    }
+  }
+
+  .content {
+    background-color: $color-white;
+  }
+
+  .projectShadow {
+    background: $shadow-gradient-bright;
+    box-shadow: $shadow-inset-bright;
+  }
+
+  .icons .icon {
+    &:hover {
+      background-color: $color-red;
+
+      path {
+        fill: $color-white;
+      }
+    }
+  }
+}

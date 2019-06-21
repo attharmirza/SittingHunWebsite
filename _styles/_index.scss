@@ -59,11 +59,16 @@
 
   .projectTitle {
     width: calc(100% - 6px);
+    // color: $color-white;
     // width: 100%;
     padding: 5px 0;
     // background: $color-white;
     border-radius: 0 0 8px 8px;
     margin: 0 auto 3px;
+
+    p {
+      color: $color-white;
+    }
   }
 
   .projectDate {
@@ -99,8 +104,8 @@
 }
 
 .projectShadow {
-  background: $shadow-gradient;
-  box-shadow: $shadow-inset;
+  background: $shadow-gradient-dark;
+  box-shadow: $shadow-inset-dark;
 
   // box-shadow: $shadow-light;
   // border-radius: 10px;

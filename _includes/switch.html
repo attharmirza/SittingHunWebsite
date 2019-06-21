@@ -35,6 +35,14 @@
     };
   };
 
+  var switchLightClass = function () {
+    if (checkDarkMode() == true) {
+      $('body').removeClass('light');
+    } else {
+      $('body').addClass('light');
+    }
+  };
+
   $(document).ready(function() {
     // use darkmode switch to set darkmode cookie value
 
@@ -49,7 +57,7 @@
       path: animPath
     });
 
-    anim.setSpeed(2)
+    anim.setSpeed(5)
 
     var switchDarkMode_Check = function() {
       if (checkDarkMode() == true) {
@@ -73,10 +81,12 @@
       };
     };
 
+    switchLightClass();
     switchDarkMode_Check();
 
     $('#switchContainer').click(function () {
       switchDarkMode_Flip();
+      switchLightClass();
       console.log("darkmode is " + getCookieGlobal('darkmode'));
     });
 

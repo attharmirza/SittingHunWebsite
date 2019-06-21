@@ -40,8 +40,10 @@ $shadow-light: 0 0 40px 0px rgba(0, 0, 0, 0.2);
 $shadow-light-inset: inset $shadow-light;
 $shadow-pressed: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 
-$shadow-inset: inset 0 0 8px 4px rgb(33, 33, 33);
-$shadow-gradient: radial-gradient(rgb(0, 0, 0) 30%, rgb(33, 33, 33) 100%);
+$shadow-inset-dark: inset 0 0 8px 4px rgb(33, 33, 33);
+$shadow-inset-bright: inset 0 0 8px 4px rgb(255, 255, 255);
+$shadow-gradient-dark: radial-gradient(rgb(0, 0, 0) 30%, rgb(33, 33, 33) 100%);
+$shadow-gradient-bright: radial-gradient(rgb(0, 0, 0) 30%, rgb(255, 255, 255) 100%);
 
 $screen-small: 900px;
 $screen-wide: 1600px;
@@ -54,3 +56,4 @@ $screen-wide: 1600px;
 @import "story";
 @import "project";
 @import "form";
+@import "bright";
