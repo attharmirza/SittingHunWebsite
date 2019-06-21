@@ -28,6 +28,15 @@
   box-shadow: $shadow-light;
   background-color: $color-dark;
 
+
+  .menuButton-dark {
+    display: block;
+  }
+
+  .menuButton-light {
+    display: none;
+  }
+
   img {
     width: 100%;
   }

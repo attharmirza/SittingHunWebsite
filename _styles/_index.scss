@@ -143,6 +143,14 @@
       cursor: pointer;
     }
   }
+
+  .view-more-button-dark {
+    display: inline-block;
+  }
+
+  .view-more-button-light {
+    display: none;
+  }
 }
 
 // Loading Animation Styling
@@ -155,6 +163,14 @@
   top: 50%;
   left: 60%;
   transform: translateX(-50%) translateY(-50%);
+
+  #animationLoad-dark {
+    display: block;
+  }
+
+  #animationLoad-light {
+    display: none;
+  }
 
   img {
     width: 100%;

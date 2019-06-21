@@ -29,4 +29,38 @@ body.light {
       }
     }
   }
+
+  .pageRack {
+    .view-more-button-dark {
+      display: none;
+    }
+
+    .view-more-button-light {
+      display: inline-block;
+    }
+  }
+
+  .menu {
+    #menuButton {
+      background: $color-white;
+
+      .menuButton-dark {
+        display: none;
+      }
+
+      .menuButton-light {
+        display: block;
+      }
+    }
+  }
+
+  #animationLoad {
+    #animationLoad-dark {
+      display: none;
+    }
+
+    #animationLoad-light {
+      display: block;
+    }
+  }
 }
