@@ -38,8 +38,10 @@
   var switchLightClass = function () {
     if (checkDarkMode() == true) {
       $('body').removeClass('light');
+      $('meta[name="theme-color"]').setAttribute('content', '#212121');
     } else {
       $('body').addClass('light');
+      $('meta[name="theme-color"]').setAttribute('content', '#ffffff');
     }
   };
 
