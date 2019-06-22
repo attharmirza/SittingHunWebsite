@@ -9,5 +9,12 @@ description: >-
   Washington Post, and has been doing professional freelance work under the
   brand The Sitting Hun since 2012. Thankfully, the Mayans were wrong – he was
   just getting started.
+pagination:
+  enabled: true
+  collection: projects
+  permalink: "/index:num.html"
+  per_page: 10
+  sort_field: position
+  sort_reverse: true
+  indexpage: index
 ---
-

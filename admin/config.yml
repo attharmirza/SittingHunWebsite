@@ -33,6 +33,17 @@ collections:
       - {label: Date, name: date, widget: date, default:}
       - {label: Description, name: description, widget: text, default: The professional portfolio of animator and web developer Atthar Mirza.}
       - {label: Content, name: body, widget: markdown, default: What's up my dude, this here is some default text., required: false}
+            - label: "Pagination"
+              name: "pagination"
+              widget: "object"
+              fields:
+                - {label: Enabled, name: enabled, widget: boolean, default: false}
+                - {label: collection, name: collection, widget: hidden, default:}
+                - {label: permalink, name: permalink, widget: hidden, default:}
+                - {label: Objects, name: per_page, widget: number, default: 10, valueType: int}
+                - {label: sort_field, name: sort_field, widget: hidden, default:}
+                - {label: sort_reverse, name: sort_reverse, widget: hidden, default:}
+                - {label: indexpage, name: indexpage, widget: hidden, default:}
 
   - editor:
       preview: false
