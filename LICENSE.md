@@ -1,12 +1,14 @@
 ---
 title: License
 layout: default
-description: Atthar Mirza is a web developer, animator, and designer. He loves interactive
-  graphics and 3D modeling because they allow him to extract the images in his brain
-  and bring them to life. Most recently, Atthar Mirza works at the Atlantic as a professional
-  animator and web developer, pitching and creating original work. He has been doing
-  professional freelance work under the brand The Sitting Hun since 2012, and is thankful
-  the Mayans were wrong because he was just getting started.
+date: 2019-06-22T00:08:12.073Z
+description: >-
+  Atthar Mirza is a web developer, animator, and designer. He loves interactive
+  graphics, digital modeling, and making pixels move because they extract the
+  images in his brain and bring them to life. He currently works at The
+  Washington Post, and has been doing professional freelance work under the
+  brand The Sitting Hun since 2012. Thankfully, the Mayans were wrong – he was
+  just getting started.
 ---
 
 # License
