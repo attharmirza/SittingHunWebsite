@@ -5,7 +5,7 @@ backend:
 media_folder: "_uploads"
 public_folder: "uploads"
 
-logo_url: https://www.thesittinghun.com/graphics/logo.svg
+logo_url: https://www.thesittinghun.com/graphics/logo-small.svg
 
 collections:
   - editor:
@@ -26,7 +26,7 @@ collections:
     name: "pages"
     label: "Pages"
     folder: "/"
-    create: true
+    create: false
     fields:
       - {label: Title, name: title, widget: string, default: Other}
       - {label: Layout, name: layout, widget: string, default: default}
@@ -59,13 +59,14 @@ collections:
       - {label: Position, name: position, widget: number, default: , valueType: int}
       - {label: Date, name: date, widget: date, default: }
       - {label: Description, name: description, widget: text, default: }
-      - {label: Cover, name: cover-image, widget: image, default: }
+      - {label: Thumbnail, name: cover-image, widget: image, default: }
       - label: "Awards"
         name: "awards"
         widget: "list"
+        required: false
         fields:
-          - {label: Name, name: name, widget: string, default: , required: false}
-          - {label: Image, name: path, widget: image, default: , required: false}
+          - {label: Name, name: name, widget: string, default:}
+          - {label: Image, name: path, widget: image, default:}
       - {label: Content, name: body, widget: markdown, default: Add the overall description of the project here.}
       - label: "Info"
         name: "info"
