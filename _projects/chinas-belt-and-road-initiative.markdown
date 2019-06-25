@@ -1,6 +1,6 @@
 ---
 layout: project
-title: China's Belt and Road Initiative
+title: The Belt and Road Initiative
 position: 20
 date: 2018-09-11T03:01:47.595Z
 categories:
