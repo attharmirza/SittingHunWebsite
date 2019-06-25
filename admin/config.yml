@@ -58,6 +58,11 @@ collections:
       - {label: Title, name: title, widget: string, default: }
       - {label: Position, name: position, widget: number, default: , valueType: int}
       - {label: Date, name: date, widget: date, default: }
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        allow_add: false
+        default: ["Animation"]
       - {label: Description, name: description, widget: text, default: }
       - {label: Thumbnail, name: cover-image, widget: image, default: }
       - label: "Awards"
