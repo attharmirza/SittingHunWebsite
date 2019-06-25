@@ -3,6 +3,8 @@ layout: project
 title: China's Belt and Road Initiative
 position: 20
 date: 2018-09-11T03:01:47.595Z
+categories:
+  - Animation
 description: >-
   While working as a video journalist at The Wall Street Journal, I reported,
   animated and produced an explainer about why China and the U.S. are vying for
@@ -12,7 +14,7 @@ description: >-
   reporting. After this project, I was able to call myself a full fledged
   journalist, and not just an animator.
 cover-image: /uploads/vlcsnap-2019-06-24-23h29m15s187.png
-primary-embed: 'https://www.youtube.com/watch?v=lVYdqoVJIeI'
+primary-embed: 'https://www.youtube.com/embed/lVYdqoVJIeI'
 info:
   - asset: /uploads/gif_2.gif
     style: Float
