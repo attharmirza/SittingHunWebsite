@@ -67,6 +67,8 @@ collections:
         fields:
           - {label: Name, name: name, widget: string, default:}
           - {label: Image, name: path, widget: image, default:}
+      - {label: Primary Asset, name: primary-asset, widget: file, default:, required: false}
+      - {label: Primary Embed, name: primary-embed, widget: string, default:, required: false}
       - {label: Content, name: body, widget: markdown, default: Add the overall description of the project here.}
       - label: "Info"
         name: "info"
