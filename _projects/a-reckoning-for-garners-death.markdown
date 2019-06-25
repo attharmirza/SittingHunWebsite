@@ -1,6 +1,6 @@
 ---
 layout: project
-title: A Reckoning for Garner's Death
+title: A Reckoning for the Death of Eric Garner
 position: 23
 date: 2019-06-25T14:18:03.086Z
 categories:
@@ -10,7 +10,7 @@ description: >-
   accompany Wesley Lowery's coverage of the trial that finally adjudicated
   Garner's case. I both created a series of looping animations and wrote the
   text that boiled Lowery's coverage down to its essence
-cover-image: /uploads/shareimage2_00041-small.png
+cover-image: /uploads/instagram1-still.jpg
 primary-asset: /uploads/shareimage_00000.png
 info:
   - asset: /uploads/instagram1.mp4
