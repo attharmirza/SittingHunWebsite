@@ -12,6 +12,8 @@ description: >-
   text that boiled Lowery's coverage down to its essence
 cover-image: /uploads/instagram1-still.jpg
 primary-asset: /uploads/shareimage_00000.png
+primary-embed: >-
+  https://www.washingtonpost.com/graphics/2019/national/amp-stories/eric-garner-trial/
 info:
   - asset: /uploads/instagram1.mp4
     style: Float
