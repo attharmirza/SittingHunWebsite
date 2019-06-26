@@ -1,38 +1,39 @@
 ---
-title: A Visual History of Light
-date: 2018-05-23 14:26:00 -04:00
-categories:
-- Animation
-position: 19
-description: A Visual History of Light was my contribution to a long running series
-  by The Atlantic. It examines the major evolutions in humanity's efforts to manipulate
-  light, from the first man-made fire to the modern use of 192 lasers to trigger hydrogen
-  fusion. This video earned a Vimeo Staff Pick.
-cover-image: "/uploads/VHLightThumb_PortfolioThumb.png"
-primary-embed: https://player.vimeo.com/video/270454241
-awards:
-- name: Staff Pick
-  path: "/uploads/StaffPick.svg"
-info:
-- type: Image
-  asset: "/uploads/VHLightThumb_Website-fa1835.png"
-  style: Float
-- type: Text
-  asset:
-  text: Each object shown in the video started as a frame from the storyboard. It
-    was then fully modeled before rendering with the heavily stylized and high contrast
-    final effect.
-  style: Float
-- type: Image
-  asset: "/uploads/CampfireDrawing.png"
-  style: Float
-- type: Image
-  asset: "/uploads/Campfire_wFire3.png"
-  style: Float
-- type: Image
-  asset: "/uploads/VHLightThumb_Website-b07f70.png"
-  style: Float
 layout: project
+title: A Visual History of Light
+position: 100
+date: 2018-05-23T18:26:00.000Z
+categories:
+  - Animation
+description: >-
+  A Visual History of Light was my contribution to a long running series by The
+  Atlantic. It examines the major evolutions in humanity's efforts to manipulate
+  light, from the first man-made fire to the modern use of 192 lasers to trigger
+  hydrogen fusion. This video earned a Vimeo Staff Pick.
+cover-image: /uploads/VHLightThumb_PortfolioThumb.png
+awards:
+  - name: Staff Pick
+    path: /uploads/StaffPick.svg
+primary-embed: 'https://player.vimeo.com/video/270454241'
+info:
+  - asset: /uploads/VHLightThumb_Website-fa1835.png
+    style: Float
+    type: Image
+  - style: Float
+    text: >-
+      Each object shown in the video started as a frame from the storyboard. It
+      was then fully modeled before rendering with the heavily stylized and high
+      contrast final effect.
+    type: Text
+  - asset: /uploads/CampfireDrawing.png
+    style: Float
+    type: Image
+  - asset: /uploads/Campfire_wFire3.png
+    style: Float
+    type: Image
+  - asset: /uploads/VHLightThumb_Website-b07f70.png
+    style: Float
+    type: Image
 ---
 
 [**A Visual History of Light**](https://www.theatlantic.com/video/index/560585/visual-history-light/) was my contribution to a long running series by *The Atlantic*. It examines the major evolutions in humanity's efforts to manipulate light, from the first man-made fire to the modern use of 192 lasers to trigger hydrogen fusion.
