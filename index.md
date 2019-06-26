@@ -10,11 +10,12 @@ description: >-
   brand The Sitting Hun since 2012. Thankfully, the Mayans were wrong – he was
   just getting started.
 pagination:
-  enabled: true
   collection: projects
-  permalink: "/index:num.html"
-  per_page: 10
+  enabled: true
+  indexpage: index
+  per_page: 8
+  permalink: '/index:num.html'
   sort_field: position
   sort_reverse: true
-  indexpage: index
 ---
+
