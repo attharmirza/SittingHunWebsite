@@ -103,8 +103,8 @@
     };
 
     $('.grid').imagesLoaded(function () {
-      $('.view-more-button').append('<img class="view-more-button-dark" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/showMore-dark.gif" />');
-      $('.view-more-button').append('<img class="view-more-button-light" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/showMore-light.gif" />');
+      $('.view-more-button').append('<img class="view-more-button-dark" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/loading-dark.gif" />');
+      $('.view-more-button').append('<img class="view-more-button-light" src="{{ site.url }}{{ site.baseurl }}/graphics/animations/loading.gif" />');
     })
 
     $(document).ready(function() {
@@ -137,10 +137,17 @@
         append: '.projectLink',
         outlayer: isotopeData,
         history: false,
-        button: '.view-more-button'
+        button: '.view-more-button',
+        prefill: true,
+        onInit: function () {
+          this.on('request', function () {
+            console.log('More projects loading!')
+          });
+        }
       });
 
       $('.grid').on('append.infiniteScroll', function() {
+        loadGrid();
         loadPlate();
       })
     });
