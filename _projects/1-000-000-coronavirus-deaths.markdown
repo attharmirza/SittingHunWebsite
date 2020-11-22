@@ -10,6 +10,7 @@ description: I created a data visualization for a story marking when the global
   imagine. The visualization broke that number down using a streamgraph coded in
   D3. It shows how many people have died every day since the pandemic began.
 cover-image: uploads/streamgraph-cropped.png
+primary-asset: uploads/streamgraph-1-.png
 primary-embed: <iframe width="100%" height="2285"
   frameborder="0"   src="https://observablehq.com/embed/@attharmirza/the-coronavirus-pandemic-ends-when-this-chart-shrinks-agai?cell=streamgraph"></iframe>
 info:
