@@ -4,7 +4,7 @@ title: 1,000,000 Coronavirus Deaths
 position: 50
 date: 2020-09-28T21:46:51.784Z
 categories:
-  - Animation
+  - Web
 description: I created a data visualization for a story marking when the global
   coronavirus death toll passed 1,000,000 deaths, a statistic very difficult to
   imagine. The visualization broke that number down using a streamgraph coded in
