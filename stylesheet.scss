@@ -35,10 +35,10 @@ $font-bold: normal 700 1em Lato,sans-serif;
 $font-date: normal 300 2em 'Libre Barcode 128 Text',Lato,sans-serif;
 
 // Variables
-$shadow-large: 80px 80px 100px 0px rgba(0, 0, 0, 0.17);
-$shadow-light: 30px 30px 40px 0px rgba(0, 0, 0, 0.2);
+$shadow-large: 80px 60px 100px 0px rgba(0, 0, 0, 0.17);
+$shadow-light: 30px 20px 40px 0px rgba(0, 0, 0, 0.2);
 $shadow-light-inset: inset $shadow-light;
-$shadow-pressed: 15px 15px 20px 0px rgba(0, 0, 0, 0.2);
+$shadow-pressed: 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
 
 $shadow-inset-dark: inset 0 0 8px 4px rgb(33, 33, 33);
 $shadow-inset-bright: inset 0 0 8px 4px rgb(255, 255, 255);
