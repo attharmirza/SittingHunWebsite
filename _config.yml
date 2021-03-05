@@ -44,7 +44,9 @@ pagination:
 description: The brand and portfolio of Atthar Mirza & Company.
 email: thesittinghun@gmail.com
 baseurl:
+# remember to change the url back to this before pushing:
 url: https://www.thesittinghun.com/
+# url: http://localhost:4000/
 github_username: attharmirza
 sass:
   sass_dir: _styles
