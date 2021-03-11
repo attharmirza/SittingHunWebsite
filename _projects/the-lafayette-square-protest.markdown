@@ -8,7 +8,7 @@ categories:
 description: My colleagues and I built a comprehensive picture of the law
   enforcement crackdown on protesters before Trump's June 1 photo op.
 cover-image: uploads/screen-shot-2021-03-10-at-11.02.10-pm.png
-primary-embed: https://www.youtube.com/embed/JxYmILDya0A
+primary-embed: https://www.washingtonpost.com/investigations/2020/06/08/timeline-trump-church-photo-op/?arc404=true
 info:
   - style: Float
     type: Video
@@ -27,6 +27,6 @@ info:
     type: Video
     asset: uploads/intromontage2.mp4
 ---
-My colleagues and I built a comprehensive picture of the law enforcement crackdown on protesters before Trump's June 1 photo op. You can see the full story **[here](https://www.washingtonpost.com/investigations/2020/06/08/timeline-trump-church-photo-op/?arc404=true)**. My contribution to the project included geo-locating footage, mapping police lines, helping identify the different police forces present, and animating large segments of the video (as well as coding Motion Graphics Templates in Adobe After Effects to make the animation process more efficient).
+My colleagues and I built a comprehensive picture of the law enforcement crackdown on protesters before Trump's June 1 photo op. You can see the full story [**here**](https://www.washingtonpost.com/investigations/2020/06/08/timeline-trump-church-photo-op/?arc404=true). My contribution to the project included geo-locating footage, mapping police lines, helping identify the different police forces present, and animating large segments of the video (as well as coding Motion Graphics Templates in Adobe After Effects to make the animation process more efficient).
 
 The video has garnered over 1.5 million views on YouTube alone, and won numerous awards including the duPont-Columbia baton.
