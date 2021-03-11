@@ -7,7 +7,7 @@ categories:
   - Animation
 description: My colleagues and I built a comprehensive picture of the law
   enforcement crackdown on protesters before Trump's June 1 photo op.
-cover-image: uploads/screen-shot-2021-03-10-at-10.50.50-pm.png
+cover-image: uploads/screen-shot-2021-03-10-at-11.02.10-pm.png
 primary-embed: https://www.youtube.com/embed/JxYmILDya0A
 info:
   - style: Float
