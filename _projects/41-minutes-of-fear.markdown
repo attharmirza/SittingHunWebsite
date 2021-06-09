@@ -8,7 +8,7 @@ categories:
 description: I worked with my colleagues to unravel the events of the January
   6th invasion of the Capitol building.
 cover-image: uploads/thumbnail.png
-primary-embed: https://www.washingtonpost.com/investigations/2021/01/16/video-timeline-capitol-siege/?arc404=true
+primary-embed: https://www.youtube.com/embed/ibWJO02nNsY
 info:
   - style: Float
     type: Video
