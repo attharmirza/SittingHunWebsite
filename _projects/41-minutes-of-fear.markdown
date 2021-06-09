@@ -4,7 +4,7 @@ title: 41 Minutes of Fear
 position: 101
 date: 2021-01-16T20:53:52.644Z
 categories:
-  - Web
+  - Design
 description: I worked with my colleagues to unravel the events of the January
   6th invasion of the Capitol building.
 cover-image: uploads/thumbnail.png
