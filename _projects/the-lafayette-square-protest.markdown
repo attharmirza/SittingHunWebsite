@@ -8,7 +8,7 @@ categories:
 description: My colleagues and I built a comprehensive picture of the law
   enforcement crackdown on protesters before Trump's June 1 photo op.
 cover-image: uploads/screen-shot-2021-03-10-at-11.02.10-pm.png
-primary-embed: https://www.washingtonpost.com/investigations/2020/06/08/timeline-trump-church-photo-op/?arc404=true
+primary-embed: https://www.youtube.com/embed/JxYmILDya0A
 info:
   - style: Float
     type: Video
