@@ -5,11 +5,15 @@ position: 23
 date: 2019-06-26T19:23:06.732Z
 categories:
   - Animation
-description: >-
-  Fentanyl Kingpin is a documentary about how a doting father became the head of
-  a large fentanyl dealing operation in Texas's panhandle.
+description: Fentanyl Kingpin is a documentary about how a doting father became
+  the head of a large fentanyl dealing operation in Texas's panhandle.
 cover-image: /uploads/still2-small.jpg
-primary-embed: 'https://www.youtube.com/embed/1b-MeK5-NaQ'
+awards:
+  - name: WHNPA
+    path: uploads/award-whnpa.svg
+  - name: Webby Honoree
+    path: uploads/award-webby.svg
+primary-embed: https://www.youtube.com/embed/1b-MeK5-NaQ
 info:
   - asset: /uploads/fentanylinstagram_v2-smallnoaudio.mp4
     style: Float
