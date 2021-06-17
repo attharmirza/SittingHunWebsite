@@ -11,7 +11,6 @@ description: This story was part of a series revisiting the impact of the Arab
   Libya.
 cover-image: uploads/2300-arabspringlibya-print.jpg
 primary-asset: uploads/madeitonthehomepage-cropped.png
-primary-embed: ""
 info:
   - style: Float
     type: Video
