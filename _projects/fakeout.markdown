@@ -15,7 +15,7 @@ primary-embed: https://www.youtube.com/embed/F5vzKs4z1dc
 info:
   - style: Float
     type: Video
-    asset: uploads/titlesequence.mp4
+    asset: uploads/titlesequence_1.mp4
   - style: Float
     type: Text
     text: Like the previous Fact Checker style, it was supposed to look like it was
