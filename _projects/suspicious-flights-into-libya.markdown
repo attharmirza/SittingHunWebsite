@@ -11,7 +11,7 @@ description: This story was part of a series revisiting the impact of the Arab
   Libya.
 cover-image: uploads/2300-arabspringlibya-print.jpg
 primary-asset: uploads/madeitonthehomepage-cropped.png
-primary-embed: https://www.washingtonpost.com/world/interactive/2021/libya-civil-war-russia-turkey-fighter-planes/
+primary-embed: ""
 info:
   - style: Float
     type: Video
