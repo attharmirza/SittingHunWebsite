@@ -17,9 +17,6 @@ awards:
 primary-embed: https://www.youtube.com/embed/mkttny3g6OU
 info:
   - style: Float
-    type: Video
-    asset: uploads/videogameindustry_socialclips.mp4
-  - style: Float
     type: Image
     asset: uploads/image1.png
   - style: Float
