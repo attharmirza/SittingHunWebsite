@@ -17,6 +17,23 @@ info:
   - style: Float
     type: Image
     asset: uploads/guide.png
+  - style: Float
+    type: Text
+    text: Templates I created for the project allowed editors to quickly and easily
+      create charts, counters, titles, lower thirds and more. These templates
+      involved a lot of scripting using Adobe After Effects Expressions.
+  - style: Float
+    type: Video
+    asset: uploads/twitter-countermontage_1.mp4
+  - style: Float
+    type: Video
+    asset: uploads/twitter-chartmontage_1.mp4
+  - style: Float
+    type: Text
+    text: I'm also incredibly proud of the fluid intro animation.
+  - style: Float
+    asset: uploads/twitter-intro.mp4
+    type: Video
 ---
 I engaged in a large scale rebranding of the Fact Checker weekly series at The Washington Post, as well as creating a series of bespoke animations and writing columns for the paper and producing my own episodes. Some of my best work looked at [**Iran's involvement in proxy wars**](https://www.washingtonpost.com/politics/2019/07/30/president-trumps-faulty-claim-that-iran-has-changed-its-regional-behavior/) and the [**history of the Turks and Kurds**](https://www.washingtonpost.com/politics/2019/11/04/trumps-false-claim-centuries-fighting-between-turks-kurds/?itid=ap_attharmirza).
 
