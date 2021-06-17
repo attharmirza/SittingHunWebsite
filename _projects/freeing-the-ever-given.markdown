@@ -4,7 +4,7 @@ title: Freeing the Ever Given
 position: 69
 date: 2021-04-02T18:40:42.462Z
 categories:
-  - Animation
+  - Web
 description: An in-depth reconstruction of the effort that dislodged the Ever
   Given container ship from the Suez Canal.
 cover-image: uploads/promoimage.png
